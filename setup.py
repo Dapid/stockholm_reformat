@@ -15,5 +15,6 @@ setup(name=module, version='0.1',
       license='BSD 3-clause',
       packages=['stockholm_reformat'],
       test_suite='nose.collector',
-      tests_require=['nose']
+      tests_require=['nose'],
+      scripts=['bin/stockholm_to_a3m']
     )
