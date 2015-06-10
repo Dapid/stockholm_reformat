@@ -1,6 +1,6 @@
 # -*- coding: utf8 -*-
 from setuptools import setup
-from distutils.extension import Extension
+from setuptools.extension import Extension
 
 module = 'stockholm_reformat'
 ext = Extension('stockholm_reformat.creformat',
