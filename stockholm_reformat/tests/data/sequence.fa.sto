@@ -1,0 +1,603 @@
+# STOCKHOLM 1.0
+#=GF ID 1s5lO-i4
+
+#=GS 1s5lO                         DE 2-244
+#=GS UniRef90_B2IZ52/33-273        DE [subseq from] Cluster: Photosystem II manganese-stabilizing protein PsbO
+#=GS UniRef90_P13907/33-273        DE [subseq from] Cluster: Photosystem II manganese-stabilizing polypeptide
+#=GS UniRef90_B8HTW9/31-271        DE [subseq from] Cluster: Photosystem II manganese-stabilizing protein PsbO
+#=GS UniRef90_P0A431/29-270        DE [subseq from] Cluster: Photosystem II manganese-stabilizing polypeptide
+#=GS UniRef90_B9YFM8/33-273        DE [subseq from] Cluster: Photosystem II manganese-stabilizing protein PsbO
+#=GS UniRef90_A0ZI26/34-274        DE [subseq from] Cluster: Photosystem II manganese-stabilizing protein PsbO
+#=GS UniRef90_Q943W1/99-333        DE [subseq from] Cluster: Os01g0501800 protein
+#=GS UniRef90_A5BVF4/77-311        DE [subseq from] Cluster: Putative uncharacterized protein
+#=GS UniRef90_UPI00015CD9D9/97-331 DE [subseq from] Cluster: PREDICTED: hypothetical protein
+#=GS UniRef90_C6TC92/94-327        DE [subseq from] Cluster: Putative uncharacterized protein
+#=GS UniRef90_B9S8R7/99-333        DE [subseq from] Cluster: Oxygen-evolving enhancer protein 1, chloroplast, putative
+#=GS UniRef90_P26320/98-332        DE [subseq from] Cluster: Oxygen-evolving enhancer protein 1, chloroplastic
+#=GS UniRef90_B7KEG7/32-272        DE [subseq from] Cluster: Photosystem II manganese-stabilizing protein PsbO
+#=GS UniRef90_Q9LRC4/97-330        DE [subseq from] Cluster: Oxygen evolving enhancer protein 1
+#=GS UniRef90_B4FRF2/1-230         DE [subseq from] Cluster: Putative uncharacterized protein
+#=GS UniRef90_P14226/94-328        DE [subseq from] Cluster: Oxygen-evolving enhancer protein 1, chloroplastic
+#=GS UniRef90_B4VHR5/26-268        DE [subseq from] Cluster: Manganese-stabilizing protein / photosystem II polypeptide
+#=GS UniRef90_Q9R6W6/32-271        DE [subseq from] Cluster: Photosystem II manganese-stabilizing polypeptide
+#=GS UniRef90_O49079/95-329        DE [subseq from] Cluster: Oxygen-evolving enhancer protein 1, chloroplastic
+#=GS UniRef90_P12359/96-330        DE [subseq from] Cluster: Oxygen-evolving enhancer protein 1, chloroplastic
+#=GS UniRef90_A5BPG1/97-331        DE [subseq from] Cluster: Putative uncharacterized protein
+#=GS UniRef90_P23321/98-332        DE [subseq from] Cluster: Oxygen-evolving enhancer protein 1-1, chloroplastic
+#=GS UniRef90_A9NRV4/105-339       DE [subseq from] Cluster: Putative uncharacterized protein
+#=GS UniRef90_B5VYI1/33-275        DE [subseq from] Cluster: Photosystem II manganese-stabilizing protein PsbO
+#=GS UniRef90_B7JVB7/32-271        DE [subseq from] Cluster: Photosystem II manganese-stabilizing protein PsbO
+#=GS UniRef90_P11472/33-273        DE [subseq from] Cluster: Photosystem II manganese-stabilizing polypeptide
+#=GS UniRef90_A9CM98/30-259        DE [subseq from] Cluster: 33kDa oxygen evolving protein of photosystem II (Fragment)
+#=GS UniRef90_B4WSJ8/33-273        DE [subseq from] Cluster: Manganese-stabilizing protein / photosystem II polypeptide
+#=GS UniRef90_A0YKT9/33-275        DE [subseq from] Cluster: Photosystem II manganese-stabilizing protein PsbO
+#=GS UniRef90_A9SA96/95-326        DE [subseq from] Cluster: Predicted protein
+#=GS UniRef90_A9U1K9/43-274        DE [subseq from] Cluster: Predicted protein
+#=GS UniRef90_A9CM96/71-302        DE [subseq from] Cluster: 33kDa oxygen evolving protein of photosystem II
+#=GS UniRef90_B0JTE4/33-274        DE [subseq from] Cluster: Photosystem II manganese-stabilizing polypeptide
+#=GS UniRef90_A9CM97/73-305        DE [subseq from] Cluster: 33kDa oxygen evolving protein of photosystem II
+#=GS UniRef90_A9CM94/56-288        DE [subseq from] Cluster: 33kDa oxygen evolving protein of photosystem II
+#=GS UniRef90_Q10XS5/31-272        DE [subseq from] Cluster: Photosystem II manganese-stabilizing protein PsbO
+#=GS UniRef90_A9TSK0/95-325        DE [subseq from] Cluster: Predicted protein
+#=GS UniRef90_A9CM95/60-290        DE [subseq from] Cluster: 33kDa oxygen evolving protein of photosystem II
+#=GS UniRef90_P10549/33-270        DE [subseq from] Cluster: Photosystem II manganese-stabilizing polypeptide
+#=GS UniRef90_A9RS28/95-325        DE [subseq from] Cluster: Predicted protein
+#=GS UniRef90_Q6Q300/33-274        DE [subseq from] Cluster: Photosystem II manganese stabilizing protein
+#=GS UniRef90_A9CM99/104-336       DE [subseq from] Cluster: 33kDa oxygen evolving protein of photosystem II
+#=GS UniRef90_A1XYU1/37-274        DE [subseq from] Cluster: Photosystem II manganese-stabilizing protein
+#=GS UniRef90_Q9SBN6/59-291        DE [subseq from] Cluster: Oxygen-evolving enhancer protein 1, chloroplastic
+#=GS UniRef90_A4SAM4/68-299        DE [subseq from] Cluster: PsbO, PSII-O, OEE1, photosystem II polypeptide, oxygen evolving enhancer 1
+#=GS UniRef90_A9CMA1/92-324        DE [subseq from] Cluster: 33kDa oxygen evolving protein of photosystem II
+#=GS UniRef90_Q5K289/9-254         DE [subseq from] Cluster: Oxygen-evolving enhancer (Fragment)
+#=GS UniRef90_C1EFD3/70-301        DE [subseq from] Cluster: Photosystem II manganese-stabilizing polypeptide
+#=GS UniRef90_Q15GD2/60-305        DE [subseq from] Cluster: Chloroplast photosystem II 33 kDa oxygen evolving protein PsbO (Fragment)
+#=GS UniRef90_Q68Y97/80-325        DE [subseq from] Cluster: Oxygen-evolving enhancer (Fragment)
+#=GS UniRef90_P12853/58-290        DE [subseq from] Cluster: Oxygen-evolving enhancer protein 1, chloroplastic
+#=GS UniRef90_A3YXR4/32-270        DE [subseq from] Cluster: Photosystem II manganese-stabilizing polypeptide
+#=GS UniRef90_P27665/92-323        DE [subseq from] Cluster: Oxygen-evolving enhancer protein 1, chloroplastic
+#=GS UniRef90_Q5I4B6/86-329        DE [subseq from] Cluster: Plastid oxygen-evolving enhancer 1
+#=GS UniRef90_B0CC36/31-266        DE [subseq from] Cluster: Photosystem II manganese-stabilizing protein PsbO
+#=GS UniRef90_Q5CC91/101-340       DE [subseq from] Cluster: Oxygen-evolving enhancer protein 1
+#=GS UniRef90_A9CMA0/69-301        DE [subseq from] Cluster: 33kDa oxygen evolving protein of photosystem II
+#=GS UniRef90_Q8L878/67-309        DE [subseq from] Cluster: Oxygen evolving enhancer 1
+#=GS UniRef90_B7SSL7/76-318        DE [subseq from] Cluster: Photosystem II extrinsic protein O
+#=GS UniRef90_Q7X9V5/59-301        DE [subseq from] Cluster: Oxygen-evolving enhancer 1
+#=GS UniRef90_B5IPY8/32-268        DE [subseq from] Cluster: Photosystem II manganese-stabilizing protein
+#=GS UniRef90_Q05QK4/32-271        DE [subseq from] Cluster: Photosystem II manganese-stabilizing polypeptide
+#=GS UniRef90_A3Z8N5/34-272        DE [subseq from] Cluster: Photosystem II manganese-stabilizing polypeptide
+#=GS UniRef90_A5GIL4/32-271        DE [subseq from] Cluster: Photosystem II manganese-stabilizing protein PsbO
+#=GS UniRef90_P46483/102-334       DE [subseq from] Cluster: Oxygen-evolving enhancer protein 1, chloroplastic
+#=GS UniRef90_B5A4J2/96-329        DE [subseq from] Cluster: Photosystem II oxygen evolving enhancer protein 1
+#=GS UniRef90_Q0ID87/32-271        DE [subseq from] Cluster: Photosystem II manganese-stabilizing protein
+#=GS UniRef90_Q3AMV7/35-274        DE [subseq from] Cluster: Photosystem II manganese-stabilizing polypeptide
+#=GS UniRef90_A6N1E2/1-203         DE [subseq from] Cluster: Oxygen-evolving enhancer protein 1 (Fragment)
+#=GS UniRef90_A5GW39/39-279        DE [subseq from] Cluster: Photosystem II manganese-stabilizing protein PsbO
+#=GS UniRef90_B7FZ96/69-308        DE [subseq from] Cluster: Oxygen-evolving enhancer protein 1
+#=GS UniRef90_A9CM91/57-298        DE [subseq from] Cluster: 33kDa oxygen evolving protein of photosystem II
+#=GS UniRef90_Q00GL8/97-339        DE [subseq from] Cluster: Oxygen-enhancer 1 protein
+#=GS UniRef90_Q3AUS6/34-273        DE [subseq from] Cluster: Photosystem II manganese-stabilizing polypeptide
+#=GS UniRef90_B4WKJ1/25-269        DE [subseq from] Cluster: Manganese-stabilizing protein / photosystem II polypeptide
+#=GS UniRef90_A9CM92/111-343       DE [subseq from] Cluster: 33kDa oxygen evolving protein of photosystem II
+#=GS UniRef90_Q7XYP5/92-325        DE [subseq from] Cluster: Photosystem II protein PsbO
+#=GS UniRef90_A9CM93/92-325        DE [subseq from] Cluster: 33kDa oxygen evolving protein of photosystem II
+#=GS UniRef90_B6ZHE8/67-305        DE [subseq from] Cluster: Extrinsic protein in photosystem II
+#=GS UniRef90_B8C4I5/66-304        DE [subseq from] Cluster: Oxygen-evolving enhancer protein 1
+#=GS UniRef90_Q5I4B7/96-331        DE [subseq from] Cluster: Plastid oxygen-evolving enhancer 1-2
+#=GS UniRef90_C5MR70/87-294        DE [subseq from] Cluster: Chloroplast manganese stabilizing protein-II (Fragment)
+#=GS UniRef90_A7LCN2/61-262        DE [subseq from] Cluster: Chloroplast photosynthetic water oxidation complex 33kDa subunit (Fragment)
+#=GS UniRef90_Q2JL96/29-260        DE [subseq from] Cluster: Photosystem II manganese-stabilizing protein
+#=GS UniRef90_B0L803/1-169         DE [subseq from] Cluster: 33 kDa OEC protein (Fragment)
+#=GS UniRef90_A2CCA8/46-277        DE [subseq from] Cluster: Photosystem II manganese-stabilizing protein
+#=GS UniRef90_A2BP26/48-277        DE [subseq from] Cluster: Photosystem II manganese-stabilizing protein
+#=GS UniRef90_Q6SKR0/3-171         DE [subseq from] Cluster: Oxygen-evolving enhancer protein 1 (Fragment)
+#=GS UniRef90_A2C062/36-265        DE [subseq from] Cluster: Photosystem II manganese-stabilizing protein
+#=GS UniRef90_A9BDJ5/34-260        DE [subseq from] Cluster: Photosystem II manganese-stabilizing protein
+#=GS UniRef90_B4ZG36/2-179         DE [subseq from] Cluster: Oxygen evolving complex protein variant (Fragment)
+#=GS UniRef90_B5AWV1/2-186         DE [subseq from] Cluster: Oxygen evolving enhancer protein 1 (Fragment)
+#=GS UniRef90_D1HDP5/97-216        DE [subseq from] Cluster: Whole genome shotgun sequence of line PN40024, scaffold_1.assembly12x (Fragment)
+#=GS UniRef90_D1HDP5/224-273       DE [subseq from] Cluster: Whole genome shotgun sequence of line PN40024, scaffold_1.assembly12x (Fragment)
+#=GS UniRef90_B3SRP8/2-160         DE [subseq from] Cluster: Chloroplast PsbO (Fragment)
+#=GS UniRef90_C7DRS8/1-148         DE [subseq from] Cluster: Putative photosystem II oxygen evolving system 33 kDa subunit (Fragment)
+#=GS UniRef90_Q9XH68/98-272        DE [subseq from] Cluster: 33 kDa oxygen evolving protein of photosystem II
+#=GS UniRef90_A4UHB8/95-240        DE [subseq from] Cluster: Plastid oxygen-evolving enhancer 1-2
+#=GS UniRef90_Q7NF36/35-249        DE [subseq from] Cluster: PsbO protein
+#=GS UniRef90_Q00WJ2/15-97         DE [subseq from] Cluster: Photosystem II oxygen-evolving complex protein 1-Chlamydomonas reinhardtii (ISS)
+#=GS UniRef90_Q00WJ2/103-136       DE [subseq from] Cluster: Photosystem II oxygen-evolving complex protein 1-Chlamydomonas reinhardtii (ISS)
+#=GS UniRef90_Q157M6/72-179        DE [subseq from] Cluster: 33kDa protein of oxygen-evolving complex (Fragment)
+#=GS UniRef90_Q157M5/72-179        DE [subseq from] Cluster: 33kDa protein of oxygen-evolving complex (Fragment)
+#=GS UniRef90_Q9SW65/46-141        DE [subseq from] Cluster: Photosystem II oxygen-evolving complex like protein
+#=GS UniRef90_Q67E03/113-206       DE [subseq from] Cluster: Photosystem II protein
+#=GS UniRef90_B4ZG32/90-145        DE [subseq from] Cluster: Oxygen evolving complex protein variant (Fragment)
+#=GS UniRef90_B4ZG32/152-206       DE [subseq from] Cluster: Oxygen evolving complex protein variant (Fragment)
+#=GS UniRef90_P84989/31-55         DE [subseq from] Cluster: Oxygen-evolving enhancer protein 1, chloroplastic (Fragments)
+#=GS UniRef90_P84989/72-100        DE [subseq from] Cluster: Oxygen-evolving enhancer protein 1, chloroplastic (Fragments)
+#=GS UniRef90_B4ZG24/88-142        DE [subseq from] Cluster: Oxygen evolving complex protein variant (Fragment)
+#=GS UniRef90_B4ZG21/89-143        DE [subseq from] Cluster: Oxygen evolving complex protein variant (Fragment)
+#=GS UniRef90_B4ZG23/90-144        DE [subseq from] Cluster: Oxygen evolving complex protein variant (Fragment)
+#=GS UniRef90_B4ZG20/86-140        DE [subseq from] Cluster: Oxygen evolving complex protein variant (Fragment)
+#=GS UniRef90_C6A4Q6/407-494       DE [subseq from] Cluster: Putative uncharacterized protein
+#=GS UniRef90_P84718/1-17          DE [subseq from] Cluster: Putative oxygen-evolving enhancer protein 1 (Fragments)
+#=GS UniRef90_P84718/17-33         DE [subseq from] Cluster: Putative oxygen-evolving enhancer protein 1 (Fragments)
+#=GS UniRef90_P83504/13-31         DE [subseq from] Cluster: Oxygen-evolving enhancer protein 1, chloroplastic (Fragment)
+#=GS UniRef90_B4ZG37/81-100        DE [subseq from] Cluster: Oxygen evolving complex protein variant (Fragment)
+
+1s5lO                                 KQTLTYDDIVGTGLANKCPTLDDTARGAYPIDSSQTYRIARLCLQPTTFLVKEEP-KN----KRQ--EA--E--FVPTKLVT-RETTSLDQIQGELKVN-SDGSLTFVE-EDGIDFQPVTVQMAGGERIPLLFTVKNLV--ASTQPNVTSITTSTDFKGEFNVPSYRTANFLDPKGRGLASGYDSAIALP-Q---AK---
+UniRef90_B2IZ52/33-273                ---LTYDQIRGTGLANKCPQLAETSRGSIPIDSSQSYAIKELCLEPTSFFIKEEP-AN----KRQ--EA--E--FVAGKLLT-RYTSTIDQVQGNLKIN-SDNSLTFEE-TDGLDFQAITVQLPGGERVPFLFTIKNLV--AQTQPSLSSINTSTDFEGTFKVPSYRGAAFLDPKGRGVVSGYDNAVALP-A--QAD---
+#=GR UniRef90_B2IZ52/33-273        PP ...89**************************************************.**....***..**..*..********.****************.*********.*****************************..*************************************************.8..8**...
+UniRef90_P13907/33-273                ---LTYEQIRGTGLANKCPQLTETSRGSIPLDSSKSYVLKELCLEPTNFFVKEEP-AN----KRQ--TA--E--FVAGKLLT-RYTSTIDQVSGDLKFN-DDSSLTFVE-KDGLDFQAITVQLPGGERVPFLFTIKNLV--AQTQPGLSSLNTSTDFEGTFKVPSYRGAAFLDPKGRGVVSGYDNAVALP-A--QAD---
+#=GR UniRef90_P13907/33-273        PP ...79**************************************************.**....***..**..*..********.****************.*********.*****************************..*************************************************.8..8**...
+UniRef90_B8HTW9/31-271                ---LTYDQIRGTGLANNCPSLDETARGSFALDPNQSYRMSALCLQPTTFLVKEEP-KS----RRQ--EA--D--FVPAKVMT-RYTSSIDQVQGPLKFN-SNGSLTFTE-EDGFDFQPITVQLPGGERVPLLFSVKNLV--ATTQPGLTSINTSTDFEGDFNVPSYRTSNFLDPKGRGLATGYDNAVALP-A--GAD---
+#=GR UniRef90_B8HTW9/31-271        PP ...8***************************************************.**....***..**..*..********.****************.*********.*****************************..*************************************************.9..99*...
+UniRef90_P0A431/29-270                -QTLTYDDIVGTGLANKCPTLDDTARGAYPIDSSQTYRIARLCLQPTTFLVKEEP-KN----KRQ--EA--E--FVPTKLVT-RETTSLDQIQGELKVN-SDGSLTFVE-EDGIDFQPVTVQMAGGERIPLLFTVKNLV--ASTQPNVTSITTSTDFKGEFNVPSYRTANFLDPKGRGLASGYDSAIALP-Q---AK---
+#=GR UniRef90_P0A431/29-270        PP .789***************************************************.**....***..**..*..********.****************.*********.*****************************..*************************************************.*...**...
+UniRef90_B9YFM8/33-273                ---LTYEQIRGTGLANKCPQLSETSRGSIALDGTQSYSIKELCLEPTNYFVKEEP-AN----KRQ--EA--E--FVAGRLLT-RYTSTIDQVQGDLKIN-PDNSLTFVE-KDGLDFQAITVKLPGGELVPFLFTIKNLV--AQTQPNLTSINTSTDFEGTFKVPSYRGAAFLDPKGRGVVSGYDNAVALP-A--QAD---
+#=GR UniRef90_B9YFM8/33-273        PP ...79**************************************************.**....***..**..*..********.****************.*********.*****************************..*************************************************.8..8**...
+UniRef90_A0ZI26/34-274                ---LTYEQIRNTGLANKCPQLTETSRGSIPIELSQSYTIKELCLEPTNFFVKEEP-AN----KRQ--VA--E--FVPGKLLT-RYTSTIDQVQGDLKVN-PDNSLTFLE-ADGLDFQAITVKLPGGESVPFLFTIKDLV--AQTQPGLTSINTSTDFEGTFKVPSYRGASFLDPKGRGVVSGYDNAVALP-A--QAD---
+#=GR UniRef90_A0ZI26/34-274        PP ...79**************************************************.**....***..**..*..********.****************.*********.*****************************..*************************************************.8..8**...
+UniRef90_Q943W1/99-333                -QSKTYMEVKGTGTANQCPTVEGGV-DSFAFKA-GKYNMKKFCLEPTSFTVKAEG-VA----KNA--PP--E--FQKTKLMT-RLTYTLDEIEGPLEVS-SDGTIKFEE-KDGIDYAAVTVQLPGGERVPFLFTIKNLV--ATGKPE--------SFGGPFLVPSYRGSSFLDPKGRGGSTGYDNAVALP-AGGRGD---
+#=GR UniRef90_Q943W1/99-333        PP .789*******************99.******9.*********************.**....***..**..*..********.****************.*********.*****************************..****75........9**********************************.777799...
+UniRef90_A5BVF4/77-311                -QSKTYMEVKGTGTANQCPTIDGGV-DSFAFKS-GKYQLKKFCLEPTSFTVKAEG-VS----KNA--PP--E--FQNTKLMT-RLTYTLDEIEGPFEVS-SDGTVKFEE-KDGIDYAAVTVQLPGGERVPFLFTIKQLV--ASGKP--------DKFGGEFLVPSYRGSSFLDPKGRGGSTGYDNAVALP-AGGRGD---
+#=GR UniRef90_A5BVF4/77-311        PP .789*******************99.******8.*********************.**....***..**..*..********.****************.*********.*****************************..****7........59**********************************.777799...
+UniRef90_UPI00015CD9D9/97-331         -QSKTYMEVKGTGTANQCPTIDGGV-DSFAFKS-GKYQLKKFCLEPTSFTVKAEG-VS----KNA--PP--E--FQNTKLMT-RLTYTLDEIEGPFEVS-SDGTVKFEE-KDGIDYAAVTVQLPGGERVPFLFTIKQLV--ASGKP--------DKFGGEFLVPSYRGSSFLDPKGRGGSTGYDNAVALP-AGGRGD---
+#=GR UniRef90_UPI00015CD9D9/97-331 PP .789*******************99.******8.*********************.**....***..**..*..********.****************.*********.*****************************..****7........59**********************************.777799...
+UniRef90_C6TC92/94-327                -QSKTYLEVKGTGTANQCPTIEGGV-DSFAFKP-GKYNAQKLCLEPTSFTVKAEG-VA----KNA--PP--E--FQNTKLMT-RLTYTLDEIEGPFEVT-SDGTVKFEE-KDGIDYAAVTVQLPGGERVPFLFTIKQLV--ASGKP--------DSFSGEFLVPSYRGSSFLDPKGRGASTGYDNAVALP-AGGRGD---
+#=GR UniRef90_C6TC92/94-327        PP .789*******************99.******9.*********************.**....***..**..*..********.****************.*********.*****************************..****7........59**********************************.777799...
+UniRef90_B9S8R7/99-333                -QSKTYMEVKGTGTANQCPTIDGGL-DKFSFKA-GKYNAKKFCLEPTSFTVKAES-VN----KNA--PP--E--FQNTKLMT-RLTYTLDEIEGPFEVG-PDGTVKFEE-KDGIDYAAVTVQLPGGERVPFLFTIKQLV--ATGKPE--------SFSGEFLVPSYRGSSFLDPKGRGGSTGYDNAVALP-AGGRGD---
+#=GR UniRef90_B9S8R7/99-333        PP .789*******************98.******9.*********************.**....***..**..*..********.****************.*********.*****************************..****75........9**********************************.777799...
+UniRef90_P26320/98-332                -QSKTYMEVKGTGTANQCPTIDGGV-DSFAFKP-GKYNAKKFCLEPTSFTVKAEG-VS----KNS--AP--D--FQKTKLMT-RLTYTLDEIEGPFEVS-PDGTVKFEE-KDGIDYAAVTVQLPGGERVPFLFTIKQLV--ASGKPE--------SFSVDFLVPSYRGSSFLDPKGRGGSTGYDNAVALP-AGGRGD---
+#=GR UniRef90_P26320/98-332        PP .789*******************99.******9.*********************.**....***..**..*..********.****************.*********.*****************************..****75........9**********************************.777799...
+UniRef90_B7KEG7/32-272                -EQLTYDEILNTGLANKCPQVSEFTRGNIPVERGQSYLVTDLCLEPQQYFVKEEP-VN----KRQ--EA--E--YVPGKLLT-RATTSLEQISGTIKVS-DDGKLTFIE-EEGIDFQPITVQLPGGEQVPFFFTIKSLV--GQTEPGFNSINSSVDFEGNFKVPSYRGASFLDPKGRGVVTGYDNAVALP-A--SAD---
+#=GR UniRef90_B7KEG7/32-272        PP .589***************************************************.**....***..**..*..********.****************.*********.*****************************..*************************************************.9..788...
+UniRef90_Q9LRC4/97-330                -QSKTYLEVKGTGTANQCPTIEGGV-DSFAFKP-GKYNVKKLCLEPTSFTVKAEG-VN----KNA--PP--E--FQNTKLMT-RLTYTLDEIEGPFEVS-PDGTVKFVE-KDGIDYAAVTVQLPGGERVPFLFTVKQLV--ATGKPE--------SFSGEYLVPSYRGSSFLDPKGRGGSTGYBNAVALP-AGGRGD---
+#=GR UniRef90_Q9LRC4/97-330        PP .789*******************99.******9.*********************.**....***..**..*..********.****************.*********.*****************************..****75........9**********************************.777799...
+UniRef90_B4FRF2/1-230                 ------MEVKGTGTANQCPTIDGGV-ESFPFKA-GKYQMKKLCLEPTSFTVKAEG-IA----KNA--PP--E--FQKTKLMT-RLTYTLDEIEGPLEVG-SDGTLKFEE-KDGIDYAAVTVQLPGGERVPFLFTVKQLV--ATGKPE--------SFGGPFLVPSYRGSSFLDPKGRGGSTGYDNAVALP-AGGRGD---
+#=GR UniRef90_B4FRF2/1-230         PP ......68***************99.******9.*********************.**....***..**..*..********.****************.*********.*****************************..****75........9**********************************.777799...
+UniRef90_P14226/94-328                -QSKTYLEVKGTGTANQCPTIDGGV-DSFSFKP-GKYNAKKLCLEPTSFTVKSEG-VT----KNT--PL--A--FQNTKLMT-RLTYTLDEIEGPFEVS-ADGSVKFEE-KDGIDYAAVTVQLPGGERVPFLFTIKQLV--ASGKP--------DSFSGEFLVPSYRGSSFLDPKGRGASTGYDNAVALP-AGGRGD---
+#=GR UniRef90_P14226/94-328        PP .789*******************99.******9.*********************.**....***..**..*..********.****************.*********.*****************************..****7........59**********************************.777799...
+UniRef90_B4VHR5/26-268                --QLTYDQIRNTGLANLCPQLSETTRGSIPIESDKSYRIVELCLQPTSFFVKEEP-TN----KRR--EA--E--YIPGKLLT-RATSSLDQVEGSLNFG-ENGSLIFTE-EDGIDFQAITVQLPGGEQVPFMFTIKSLV--ATSQPNMTSVNTSTDFEGEFKVPSYRGAVFLDPKGRGVASGYDNAIALP-S--KAD---
+#=GR UniRef90_B4VHR5/26-268        PP ..89***************************************************.**....***..**..*..********.****************.*********.*****************************..*************************************************.7..7**...
+UniRef90_Q9R6W6/32-271                -QDLTYDEILNTGLANKCPQISEFTRGSIPIEPGQTYFVDDLCLEPQEYFVKEEP-VN----KRQ--EA--E--YVPGKLLT-RYTTSLEQISGKITVD-EDGVVTFYE-EGGIDFQPVTVQLPGGEQVPFFFTIKNLV--GKTEPGFSSINSSIDFEGDFRVPSYRGATFLDPKGRGLATGYDNAVALP-A--TAD---
+#=GR UniRef90_Q9R6W6/32-271        PP .689***************************************************.**....***..**..*..********.****************.*********.*****************************..*************************************************.9..888...
+UniRef90_O49079/95-329                -QSKTYMEVKGSGTANQCPTIEGGT-ESFGYKT-GKYTLKKLCLEPTSFTVKAEG-IN----KNA--PP--E--FQKTKLMT-RLTYTLDEIEGPFEVA-PDGTVKFEE-KDGIDYAAVTVQLPGGERVPFLFTVKQLV--ATGKPE--------SFSGSYLVPSYRGSSFLDPKGRGGSAGYDNAVALP-AGGRGD---
+#=GR UniRef90_O49079/95-329        PP .789*******************99.9****98.*********************.**....***..**..*..********.****************.*********.*****************************..****75........9**********************************.777799...
+UniRef90_P12359/96-330                -QSKTYLEVKGTGTANQCPTVEGGV-DSFAFKP-GKYTAKKFCLEPTKFAVKAEG-IS----KNS--GP--D--FQNTKLMT-RLTYTLDEIEGPFEVS-SDGTVKFEE-KDGIDYAAVTVQLPGGERVPFLFTIKQLV--ASGKPE--------SFSGDFLVPSYRGSSFLDPKGRGGSTGYDNAVALP-AGGRGD---
+#=GR UniRef90_P12359/96-330        PP .789*******************99.******9.*********************.**....***..**..*..********.****************.*********.*****************************..****75........9**********************************.777799...
+UniRef90_A5BPG1/97-331                -QSKTYMEVKGTGTANQCPTIDGGV-DSFAFKT-GSYNMKKFCLEPTSFTVKAEG-VS----KNA--PA--E--FQNTKLMT-RLTYTLDEIEGPFEVS-SDRTVKFIE-KDGIDYAAVTVQLPGGERVPFLFTIKQLV--ASGKPE--------NFGGEFLVPSYRGSSFLDPKGRGGSTGYDNAVALP-AGGRGD---
+#=GR UniRef90_A5BPG1/97-331        PP .789*******************99.******8.*********************.**....***..**..*..********.****************.*********.*****************************..****75........9**********************************.777799...
+UniRef90_P23321/98-332                -QSKTYMEVKGTGTANQCPTIDGGS-ETFSFKP-GKYAGKKFCFEPTSFTVKADS-VS----KNA--PP--E--FQNTKLMT-RLTYTLDEIEGPFEVA-SDGSVNFKE-EDGIDYAAVTVQLPGGERVPFLFTVKQLD--ASGKP--------DSFTGKFLVPSYRGSSFLDPKGRGGSTGYDNAVALP-AGGRGD---
+#=GR UniRef90_P23321/98-332        PP .789*******************99.******9.*********************.**....***..**..*..********.****************.*********.*****************************..****7........59**********************************.777799...
+UniRef90_A9NRV4/105-339               -QSQTYLEVKGSGTANQCPTIDGGV-EAFPFKP-GKYEMKKLCMEPTSFTVKAEG-TN----KNQ--PP--D--FQKTRLMT-RLTYTLDEIEGPLEVS-QDGKLKFEE-KDGIDYAAVTVQLPGGERVPFLFTVKQLV--ASGTP--------DSFSGQFLVPAYRGSSFLDPKGRGGSTGYDNAVALP-AGGRGD---
+#=GR UniRef90_A9NRV4/105-339       PP .789*******************99.******9.*********************.**....***..**..*..********.****************.*********.*****************************..****7........59**********************************.777799...
+UniRef90_B5VYI1/33-275                ---LTYDDIRNTGLAVNCPSLPETARGSIPLDQNASYEITGLCLQPTSYFVKEEP-AN----KRQ--EA--E--FVPGRLLT-RFTYSLDQVRGLLKFQ-PDGSLKFTE-KDGIDFQPITVLLPGGEQVPFLFTIKGLV--ATSQPGLTSINTSTDFSGDFNVPSYRGSTFLDPKARGLASGYDNAVALP-A--TAD---
+#=GR UniRef90_B5VYI1/33-275        PP ...79**************************************************.**....***..**..*..********.****************.*********.*****************************..*************************************************.9..9**...
+UniRef90_B7JVB7/32-271                -QDLTYDEILNTGLANKCPQISEFTRGTIPVESGTTYIVKDLCLEPQEYFVKEEP-TN----KRQ--EA--E--FVPGKLLT-RDTTSLEQITGKITVS-DDGVLTFLE-EGGIDFQPITVQLPGGEQEPFFFTIKSLV--GKTGPGFTSINSSTDFEGQFKVPSYRGATFLDPKGRGLATGYDNAVALP-A--TAD---
+#=GR UniRef90_B7JVB7/32-271        PP .689***************************************************.**....***..**..*..********.****************.*********.*****************************..*************************************************.9..899...
+UniRef90_P11472/33-273                ---LTYDQIKDTGLANKCLSLKESARGTIPLEAGKKYALTDLCLEPQEFFVKEEP-GN----KRQ--KA--E--FVPGKVLT-RYTSSLDQVYGDLALK-ADGTVSFTE-KGGIDFQAITVLLPGGEEVPFLFTVKGLV--ASTSEPATSINTSTDLRGGYRVPSYRTSNFLDPKARGLTTGYESAVAIP-S--AGD---
+#=GR UniRef90_P11472/33-273        PP ...8***************************************************.**....***..**..*..********.****************.*********.*****************************..*************************************************.5..5**...
+UniRef90_A9CM98/30-259                --ALTYLQVKGTGIANTCPVIEKNVNDKIKA---GDYSIEQLCMEPTSFTVKEES-QF----KAG--EA--E--FVKTKLLT-RLTYTLDDISGKFKVG-ADGSVTFTE-EDGIDYAATTVQLPGGERVPFLFTIKELV--AKGNT--------SQFGGDFVVPSYRGSSFLDPKGRGASTGYDTAVALP-A--AGD---
+#=GR UniRef90_A9CM98/30-259        PP ..68*********************888654...67*******************.**....***..**..*..********.****************.*********.*****************************..****5........69**********************************.8..7**...
+UniRef90_B4WSJ8/33-273                ---LTYDQIRNTGLANSCPQVDETRRGQIPIEEGTTYKLVDLCLEPTSFFVKQES-PN----KRK--EA--E--FVAGKSLT-RYTTSIEQVSGDINLQ-DDGSLVFDE-KLGMDFQPITVLLPGGDQIPFLFTIKGLE--ARSQPGLNAITTSTDFEGSFRVPSYRTSNFLDPKARGLTTGYDNAVALP-A--RAD---
+#=GR UniRef90_B4WSJ8/33-273        PP ...79**************************************************.**....***..**..*..********.****************.*********.*****************************..*************************************************.9..8**...
+UniRef90_A0YKT9/33-275                ---LTYDDIVNTGLAVNCPSLPETARGSIALDSSTSYEISGLCLQPTSYFVKEEP-TS----KRK--EA--E--FVPGRLLT-RFTYSLDQVGGTLKFD-KNGVLTFQE-KYGIDFQPITVQLPGGEQVPFLFTIKGLV--AQSQAGLSSINTSTDLEGIFDVPSYRGSTFLDPKGRGLATGYDNAVALP-A--TAD---
+#=GR UniRef90_A0YKT9/33-275        PP ...79**************************************************.**....***..**..*..********.****************.*********.*****************************..*************************************************.9..9**...
+UniRef90_A9SA96/95-326                ---QTYMDVKGSGTANQCPIVPEGS-DKFSFKD-GKYTMKKLCMEPTSFTVKAES-PF----KGG--SE--G--FQNTKLMT-RLTYTLDEIEGPLTV--SNGNLRFEE-KDGIDYAAVTVQLPGGERVPFLFTVKELV--AEGKPE--------KFGGSFLVPSYRGSSFLDPKGRGGSTGYDNAVALP-AGGAGD---
+#=GR UniRef90_A9SA96/95-326        PP ...79******************99.******8.*********************.**....***..**..*..********.***************..89*******.*****************************..****75........9**********************************.655699...
+UniRef90_A9U1K9/43-274                ---QTYLDVKGSGTANQCPIVAEGS-DKFNLKD-GNYQMKKLCLEPTSFTVKAES-QF----KQG--GE--D--YQPTKLMT-RLTYTLDEIEGPLTI--SNGNLKFEE-KDGIDYAAVTVQLPGGERVPFLFTIKELV--ATGKPE--------AFGGSYLVPSYRGSSFLDPKGRGGSTGYDNAVALP-AGGAGD---
+#=GR UniRef90_A9U1K9/43-274        PP ...79******************99.******8.*********************.**....***..**..*..********.**************9..89*******.*****************************..****75........9**********************************.655699...
+UniRef90_A9CM96/71-302                -QNLTYMQVKGTGIANTCPIVEGAA-GNIKLGS-GTYKIEKMCLEPTSFTVKEES-QF----KGG--AD--E--YVQTKLMT-RLTYTLDEISGALTVG-AAGDVTFVE-EDGIDYAPVTVQLPGGERVPFLFTVKELN--AKGNL--------SQFGGDFTVPSYRGATFLDPKGRGNATGYDNAVALP-A--AAD---
+#=GR UniRef90_A9CM96/71-302        PP .799*******************98.******8.*********************.**....***..**..*..********.****************.*********.*****************************..****6........69**********************************.8..79*...
+UniRef90_B0JTE4/33-274                --ELTYDEILNTGLANKCPQISEFTRGTLPLERGESYVVTDLCLEPQEYFVKGEP-VN----KRE--AA--T--FIPGKLLT-RDTTSLEQMTASLTVG-EDGVLTLKE-EDGIDFQPVTVQLPGGERVPLFFTIKGFT--GKTEAGFNSINSSTDFEGDFKVPSYRGAGFLDPKGRGVVTGYDNAVALP-A--SAD---
+#=GR UniRef90_B0JTE4/33-274        PP ..79***************************************************.**....***..**..*..********.****************.*********.*****************************..*************************************************.9..9**...
+UniRef90_A9CM97/73-305                -QGLTYLQVKGTGVANTCPVISGGSTNPKDIPA-GNYKFSEFCLEPTSFTVKEDS-QF----KAG--ES--E--LVKTKLMT-RLTYTLDDMSGKMTIG-SDGKVTFKE-EDGIDYAPVTVQLPGGERVPFLFTVRELD--AKGTL--------DSFSGDFTVTSYRGSSFLDPKGRGGSTGYDNAVALP-A--RSD---
+#=GR UniRef90_A9CM97/73-305        PP .679***************************98.*********************.**....***..**..*..********.****************.*********.*****************************..****7........59**********************************.9..8**...
+UniRef90_A9CM94/56-288                -QGLTYLQVKGSGIANTCPVVEAGTTNLNELKA-GNYKFQKMCMEPTSFTVKEES-QF----RGG--DS--E--FVKTKLMT-RLTYTLDEMSGTFKVD-GSGKVELQE-EDGIDYAATTVQLPGGERVPFLFTIKQLN--AKGTL--------DSFSGDFVVPSYRGSSFLDPKGRGASTGYDNAVALP-A--RAD---
+#=GR UniRef90_A9CM94/56-288        PP .679*********************99999998.*********************.**....***..**..*..********.****************.*********.*****************************..****7........59**********************************.9..8**...
+UniRef90_Q10XS5/31-272                ---LTYEDIVNTGLANNCPELPETARGFIAIDQSQSYTLTDLCLKPTTYFVKEEP-TN----KRQ--KA--E--FIQGKKLT-RYTSTLDQITGELVFN-EDNSLTFNE-QYGIDFQPITILLPGGEEVPFLFTVKGLS--AKSQPNITAINTSTDFQGLYNVPSYRGSSFLDPKGRGVTSGYDNAVALP-A--SSD---
+#=GR UniRef90_Q10XS5/31-272        PP ...8***************************************************.**....***..**..*..********.****************.*********.*****************************..*************************************************.9..899...
+UniRef90_A9TSK0/95-325                ---QTYMDVKGSGTANQCPIVAEGS-GQFSFKD-GEYTMRKLCLEPTSFTVKAES-PF----KGG--SE--G--YQQTKLMT-RLTYTLDEIEGPLTV--KGGNLRFEE-KDGIDYAAVTVQLPGGERVPFLFTVKELV--AEGKPE--------AFGGSFLVPSYRGSSFLDPKGRGGSTGYDNAVALP-AGGAGD---
+#=GR UniRef90_A9TSK0/95-325        PP ...79******************99.******8.*********************.**....***..**..*..********.***************..89*******.*****************************..****75........9**********************************.655699...
+UniRef90_A9CM95/60-290                -QGLTYLQVKGTGIANTCPVIDGGSTNLKDLKP-GTYSFEKLCLEPTSFTVKEEN-A------KG--ES--E--FVSTKLMT-RLTYTLDEISGKLTVG-SNGSVELKE-EDGIDYAPVTVQLPGGERVPFLFTIKQLE--AKGTLE--------GFSGDFTVPSYRGSSFLDPKGRGGSTGYDNAVALP-A--RAD---
+#=GR UniRef90_A9CM95/60-290        PP .679*********************99999*99.*******************97.7......89..**..*..********.****************.*********.*****************************..****75........9**********************************.9..8**...
+UniRef90_P10549/33-270                --QLTYDDIVNTGLANVCPEISSFTRGTIEVEPNTKYFVSDFCMEPQEYFVKEEP-VN----KRQ--KA--E--YVKGKVLT-RQTTSLEQIRGSIAVG-ADGTLTFKE-KDGIDFQPITVLLPGGEEVPFFFTVKNFT--GTTEPGFTSINSSTDFVGDFNVPSYRGAGFLDPKARGLYTGYDNAVALP-S---AA---
+#=GR UniRef90_P10549/33-270        PP ..79***************************************************.**....***..**..*..********.****************.*********.*****************************..*************************************************.7...66...
+UniRef90_A9RS28/95-325                ---QTYMDVKGSGTANQCPIVAEGS-DKFAFKD-GNYTMRKFCLEPTSFTVKAES-QF----KGG--NE--G--FQPTKLMT-RLTYTLDEIEGPLTV--QNGNLRFEE-VDGIDYAAVTVQLPGGERVPFLFTVKELV--AEGKPE--------AFGGSFLVPSYRGSSFLDPKGRGGSTGYDNAVALP-AGGAGD---
+#=GR UniRef90_A9RS28/95-325        PP ...79******************99.******8.*********************.**....***..**..*..********.***************..79*******.*****************************..****75........9**********************************.655699...
+UniRef90_Q6Q300/33-274                -KQLTYDEILNTGLANSCPQIANFTRGTIPIAPNETIEFSDLCLEPQTYFVKEEP-LN----KRR--EA--E--FIEGKPLT-RYTSSLEQMTGKIKAD-SEGLLTLVE-EDGIDFQPITVQLPGGDQVPFLFTIKNLV--AQTSTPSDSINTSTDFIGEFRVPPYRGAVFLDPKARGTASGYDNAVALP-S--QAD---
+#=GR UniRef90_Q6Q300/33-274        PP .589***************************************************.**....***..**..*..********.****************.*********.*****************************..*************************************************.6..6**...
+UniRef90_A9CM99/104-336               --SKTYLEVKGTGTANQCPAIGGGL-DGFSFKP-GKYQMQKLCLEPTEFRVKAES-QF----KGG--DT--E--FTKTKLMT-RLTYTLDEIEGPFEVS-SDGSVKFEE-KDGIDYAAVTVQLPGGERVPFLFSVKELV--ATGRP--------SSFGGKYLVPSYRGSSFLDPKGRGGSTGYDNAVALP-AGGSGD---
+#=GR UniRef90_A9CM99/104-336       PP ..79*******************98.99****9.*********************.**....***..**..*..********.****************.*********.*****************************..****6........59**********************************.877799...
+UniRef90_A1XYU1/37-274                --NVTYEDIVNTGKANDCPNLPESARGSISLNESKRYQLRGMCLHPTEVFVKGEP-AN----KRQ--EA--Q--FVAGKILT-RYTSSLDQVYGDLSV--SGDTLTFKE-KGGFDFQPITVLLPGGEEIPFTFSTKKLE--AKAQ--GAAISTSTDFEGTYRAPSYRTSNFLDPKGRGLTTGYGAAVGLP-S---AD---
+#=GR UniRef90_A1XYU1/37-274        PP ..68***************************************************.**....***..**..*..********.***************..7889*****.*****************************..****..89*****************************************.*...**...
+UniRef90_Q9SBN6/59-291                -QGLTYLQVKGTGIANTCPVLEKGSTDLSELSA-GTYKLENFCIEPTSFTVKEES-VF----KGG--ET--E--FVKTKLMT-RLTYTLDAMSGTLKVG-SDGSAELKE-EDGIDYAATTVQLPGGERVAFLFTIKQFD--GKGTL--------DNIKGDFVVPSYRGSSFLDPKGRGGSTGYDNAVALP-A--RAD---
+#=GR UniRef90_Q9SBN6/59-291        PP .679************************9**98.*********************.**....***..**..*..********.****************.*********.*****************************..****6........599*********************************.9..8**...
+UniRef90_A4SAM4/68-299                -QGLTYLQVKGTGLANTCPVVEGGVSGK-EIKA-GDYALERFCMEPTSFTVKEES-QF----KQG--ES--E--FSKTRLMT-RLTYTLDGMTGSFKVG-SDGSVNVQE-NDGLDYAPVTVQLPGGERVPFLFTLKEFT--GKGNT--------SQFGGDFVVPSYRGSSFLDPKGRGGSTGYDNAVALP-A--RAD---
+#=GR UniRef90_A4SAM4/68-299        PP .679********************9665.9998.*********************.**....***..**..*..********.****************.*********.*****************************..****5........69**********************************.9..8**...
+UniRef90_A9CMA1/92-324                -QSLTYSEVKGSGIANQCPIIAGGV-DGFAFKS-GKYQVSKMCLEPTAFTVKAES-QF----KGQ--GE--E--FQKTKLMT-RLTYTLDEIEGPLEV--NGNNLKFTE-VDGIDYAAVTVQLAGGERVPFLFTVKELV--ASGP--------ADSFGGSFLVPSYRGATFLDPKGRGGSQGYDTAVALP-AGGFGD---
+#=GR UniRef90_A9CMA1/92-324        PP .799*******************99.999***8.*********************.**....***..**..*..********.***************..5778*****.*****************************..***9........579**********************************.888899...
+UniRef90_Q5K289/9-254                 --NLTYEEVKGTGIANRCPEVESNG-EDIVLQQNTKYKITDLCIEPKSFQIETEV-QK----KRG--ESRRE--FVDTKLVT-RATYSLAGVEGPLFYD-KDGSLTFQE-KEGLDYAATTVQLPGGERVPFFFTIKELV--AKATA-PKGISPGTEFGGTFTVPSYRSGLFLDPKGRGATTGYDMAQALP-AF-EADGN-
+#=GR UniRef90_Q5K289/9-254         PP ..79*******************99.999**************************.**....*99..76559..********.****************.*********.*****************************..****5.7******************************************.86.55588.
+UniRef90_C1EFD3/70-301                -QGLTYLQVKGTGLANTCPVVETGGSGS-SIKG-GDYALEKFCMEPTSFTVKEES-AF----KAG--ES--E--FVKTKLMT-RLTYTLDGMTGSFKVG-SDGSVAVQE-RDGLDYAPVTVQLPGGERVPFLFTLKEFT--GKGNT--------SQFGGDFVVPSYRGSSFLDPKGRGGSTGYDNAVALP-A--KSD---
+#=GR UniRef90_C1EFD3/70-301        PP .679*******************99666.8886.*********************.**....***..**..*..********.****************.*********.*****************************..****5........69**********************************.9..89*...
+UniRef90_Q15GD2/60-305                --NLTYEEVKGTGIANRCPEVESNG-EDIVLQQNTKYKITDLCIEPKSFQIETEV-QK----KRG--ESRRE--FVDTKLVT-RATYSLAGVEGPLFYD-KDGSLTFQE-KEGLDYAATTVQLPGGERVPFFFTIKELV--AKATA-PKGISPGTEFGGTFTVPSYRSGLFLDPKGRGATTGYDMAQALP-AF-EADGN-
+#=GR UniRef90_Q15GD2/60-305        PP ..79*******************99.999**************************.**....*99..76559..********.****************.*********.*****************************..****5.7******************************************.86.55588.
+UniRef90_Q68Y97/80-325                --QLSYEQVKGTGLANRCPEVVSSK-GKISLDKTKKYKVVDLCLEPKQFLVEEEV-GR----RRG--ESKRE--FVDTKLMT-RATYTLANIEGELVN--ENGTWKFIE-KDGMDYAATTVQIPGGERVPFLFSIKKLV--ASLNNADDGISTSTELGGEFKVPSYRTGMFLDPKGRGMANGYDMAVALP-AL-EADGA-
+#=GR UniRef90_Q68Y97/80-325        PP ..799******************98.*****************************.99....887..55349..********.*************85..9********.*****************************..*************************************************.85.44588.
+UniRef90_P12853/58-290                -QGLTYLQVKGSGIANTCPVLESGTTNLKELKA-GSYKLENFCIEPTSFTVKEES-QF----KGG--ET--E--FVKTKLMT-RLTYTLDAMSGSFKVG-SDGSAELKE-DDGIDYAATTVQLPGGERVAFLFTIKQFD--GKGTL--------DGIKGDFLVPSYRGSSFLDPKGRGGSTGYDNAVALP-A--RAD---
+#=GR UniRef90_P12853/58-290        PP .679*********************99999998.*********************.**....***..**..*..********.****************.*********.*****************************..****6........489*********************************.9..8**...
+UniRef90_A3YXR4/32-270                --NVTYDDIVNTGKANDCPTLPDSARGSIPLDPSGSYQLREICLHPSEVFVKGEP-AN----KRQ--EA--Q--FVAGKILT-RYTSSLDQVYGDLTI--DGAQLTFKE-LGGIDFQPITVLMPGGEEVPFTFSSKQLI--ATAE--GTAISPSTDFEGAYRTPSYRTANFLDPKGRGLTTGYSSAVGLVPA---GD---
+#=GR UniRef90_A3YXR4/32-270        PP ..68***************************************************.**....***..**..*..********.**************9..6889*****.*****************************..****..89***************************************9857...**...
+UniRef90_P27665/92-323                -QSKTYMEVKGTGTANQCPTIDGGV-DSFPFKA-GKYEMKKFCLEPTSFTVKAEG-IQ----KNE--PP--R--FQKTKLMT-RLTYTLDEMEGPLEVR-RRRTLKFEE-KDGIDYAAVTVQLPGGERVAFLFTVKQLV--ATGKPE--------SF-RPFLVPSYRGSSFLDPKGRGGSTGYDNAGALP-RGGRGD---
+#=GR UniRef90_P27665/92-323        PP .789*******************99.******9.*********************.**....***..**..*..********.****************.*********.*****************************..****74........44.57******************************.555699...
+UniRef90_Q5I4B6/86-329                --SLTYEQVKGTGLANRCPEVDVSK-GSIPLSPNKSYKLVDLCLEPKSFQVEEEI-GK----KGE-SRK--A--FVDTKLMT-RATYTLSGIEGILRS--EGDTLVFEE-KEGIDYAATTVQLPGGERLPFLFTIKQLV--AKAA-GGGSISTATEFGGTYRVPSYRTGGFLDPKGRGMVTGYDMAVGLP-AM-EADGR-
+#=GR UniRef90_Q5I4B6/86-329        PP ..79*******************98.****************************9.88....766.267..8..********.**************8..7889*****.*****************************..****.79******************************************.84.44488.
+UniRef90_B0CC36/31-266                --SMTYDQVKGTGLADSCPTLPTGTGDTISVG--GSAYITDLCFQPTSFFVKEEP-KN----PRQ--EA--E--FVPASVMT-RKTTTLEQIEGPLSA--DGGGLTFKE-KDGMDFQAITVQISGRERVPMLFTVKELL--ASAS--GSSIADGTSFSGEYAVPSYRTSGFLDPKGRGVSTGYDNAVALP-A--SAD---
+#=GR UniRef90_B0CC36/31-266        PP ..68*********************9998887..699******************.**....***..**..*..********.**************9..6778*****.*****************************..****..89*****************************************.9..9**...
+UniRef90_Q5CC91/101-340               --SANYLKLKGTGISNTCPTLGASARGNISLEKGKEYYLTDLCIQPTEILVKAES-LQ----KGK--GE--E--FQPTRLVT-RATYTIDKVEGPIFVD-SDNQVTFVE-KDGFDYQALTVKLPGGELVPMLFTVKELI--AKAPVSDGGISPATNLKGSFAVPSYRMGNFLDPKGRGLATGYDFAHALP-A---AD---
+#=GR UniRef90_Q5CC91/101-340       PP ..679**************************************************.**....***..**..*..********.****************.*********.*****************************..*************************************************.*...**...
+UniRef90_A9CMA0/69-301                -QGLTYLQVKGTGVANTCPTLSTGG-DGSTLKA-GSYQISGMCIEPTAFKVKEES-QF----KEG--TS--E--FVKTKLMT-RLTYTLDGLSGKMTVG-SDGSVDFKKDNEGIDFAPTTVQLPGGERVPFLFTFKQFA--GKGTV--------DGFSGDFTVPSYRGSSFLDPKGRGGSTGYDTAVGLP-A--KGD---
+#=GR UniRef90_A9CMA0/69-301        PP .679*******************99.5558998.*********************.**....***..**..*..********.****************.*******9879****************************..****6........59**********************************.9..8**...
+UniRef90_Q8L878/67-309                --SLTYLQIKGTGLANTCPIVQPSESGKTTISVGPGAKIEEFCLEPTSFQVLEEK-MT----KKG-LVT--E--AVDTKVTT-RQTYVLTGIDGDLVQ--KDGKLTFLE-KDGIDYAATTVQLPGGERVPFLFTVKNLV--AQSDVATSSISPGLKMAGSFTVPSYRTGLFLDPKGRGTTTGYDQAVALP-A---LQA--
+#=GR UniRef90_Q8L878/67-309        PP ..79***************************************************.99....888.578..*..********.*************97..9********.*****************************..*************************************************.8...444..
+UniRef90_B7SSL7/76-318                --SLSYLQVKGTGLANRCPEVFGTG--SIDVN--GKTKIVDMCIEPKTFQVLEET-SS----KRG--EAKKE--YVNTKLMT-RQTYTLYGIDGSFAP--ENGKITFRE-KDGIDYAATTIQLPGGERVPFLFTVKELV--AQATTPGNSVTPGLQFGGPFSTPSYRTGLFLDPKGRGGSTGYDMAVALP-G---KQSG-
+#=GR UniRef90_B7SSL7/76-318        PP ..799****************9976..66555..7********************.**....998..54339..********.**************9..89*******.*****************************..*************************************************.7...5556.
+UniRef90_Q7X9V5/59-301                --SLDYLQVKGTGLANRCSEVIGTD--SITIS--GKKQLVDLCIEPKTFQVEEEK-VA----KSGSIQK--A--FVNTKLMT-RQTYTLDGISGTISS--KDGKIVFTE-EDGIDYAASTVQKPGGERVPFLFTVKELV--ATASTSGDKIAPGFQMGGKFTVPSYRTGLFLDPKGRGMSTGYDMAVALP-G---KQSG-
+#=GR UniRef90_Q7X9V5/59-301        PP ..789*****************986..77776..699******************.99....9885578..8..********.**************7..8********.*****************************..*************************************************.7...5556.
+UniRef90_B5IPY8/32-268                --NLTYEDIHNTGLANDCPTLPDSARGSIALDGSGSYSLREICMHPSEVYVKGEP-AN----KRQ--EA--Q--FVAGKILT-RFTTSLDQVYGDLRVE--GDDLRFQE-QGGLDFQLITVLLPGGEEVPFVFSSKELE--AKAD--GAAISTSTDFKGSYRVPSYRTSNFLDPKGRGLTTGYSSAVGLV-P---AG---
+#=GR UniRef90_B5IPY8/32-268        PP ..79***************************************************.**....***..**..*..********.***************5..667*****.*****************************..****..89****************************************9.6...44...
+UniRef90_Q05QK4/32-271                --NITYDDIRNTGKANDCPVLAESARGSISLTPGGSYELKGICMHPTRVFAKGEP-SN----KRQ--EA--Q--FVEGKILT-RFTSSLDEVYGDLTVS-DSG-ITFEE-KGGIDFQPITVLVPGGEEFPFTFSSKSLN--ASAD--GAAITTSTDFEGTYRTPSYRTSNFIDPKGRALTTGVQYAQGLV-AL-GGD---
+#=GR UniRef90_Q05QK4/32-271        PP ..68***************************************************.**....***..**..*..********.***************6.665.*****.*****************************..****..89*****************************************.98.899...
+UniRef90_A3Z8N5/34-272                ---TRYEDIVNTGKANDCPTLSDAARGSIALDIGGSYELRDVCMHPLQVSVKGEP-AN----KRQ--EA--Q--FVEGKILT-RYTSSLDEVYGDLEVS-EEG-LSFSE-KGGIDFQPITVLIPGGEEYPFTFSSKNLQ--AKAS--GAAITTSTDFEGTYRTPSYRTSNFIDPKGRALTTGVDYPQGLI-GL-GGD---
+#=GR UniRef90_A3Z8N5/34-272        PP ...68**************************************************.**....***..**..*..********.***************8.888.9****.*****************************..****..89*****************************************.66.79*...
+UniRef90_A5GIL4/32-271                --NVTYDDIRNTGKANDCPTLSDSARGSIDLTAGDAYELRGICMHPTQVFIKGEP-AN----KRQ--EA--Q--FVEGKILT-RYTSSLDEVYGTLTVG--EDSISFKE-EGGIDFQPITVLIPGGEEFPFTFSSKNLD--AVAN--GAAITTSTDFEGTYRTPSYRTSNFIDPKGRALTTGVDYPQGLI-GL-GGD---
+#=GR UniRef90_A5GIL4/32-271        PP ..68***************************************************.**....***..**..*..********.***************6..567*****.*****************************..****..89*****************************************.66.79*...
+UniRef90_P46483/102-334               -QSLSYLEVKSSGIAGTCPVLADGVSSKLSLKA-GKYEINNWCLEPSSFQVKLPP-TE----KQQ--VT--E--FERTKLMT-RLTYTLDAISADLNVG-GDGSWTIQE-KDGLDYAATTVQLAGGERVPFLFTIKNLL--AKGDA--------GQFLGQFDVPSYRGATFLDPKGRGGASGYDTAVALP-A--SGD---
+#=GR UniRef90_P46483/102-334       PP .789****************************9.*********************.**....***..**..*..********.****************.*********.*****************************..****4........69**********************************.9..9**...
+UniRef90_B5A4J2/96-329                -QGLSYLDVKGSGMANTCPVLSSGTSDVKGSLKPGTYKFEKFCIEPSSFQVKEDV-G------KG--KK--E--FINTKLMT-RLTYTLDAMSGTMKVG-SGGAIEFKE-EDGIDYAPTTVQLPGGSRVPFLFTVKELE--AKGDIE--------AFSGEFSVPSYRGSTFLDPKGRGAATGYDTAVAIP-AGGAGD---
+#=GR UniRef90_B5A4J2/96-329        PP .6789*****************999886655555*******************97.7......89..99..*..********.****************.*********.*****************************..****75........9**********************************.655699...
+UniRef90_Q0ID87/32-271                --NVTYDDIRNTGKANDCPTLPDSARGSISLTAGSAYELRGICMHPSQVFVKGEP-AN----KRQ--EA--Q--FVEGKILT-RYTSSLDEVFGDLSVG-ANG-LSFSE-KGGIDFQPITVLVPGGEEFPFTFSSKNLQ--ATAD--GSSLTTSTDFNGTYRTPSYRTSNFIDPKGRALTTGVDYPQGLV-GL-GGD---
+#=GR UniRef90_Q0ID87/32-271        PP ..68***************************************************.**....***..**..*..********.***************9.998.9****.*****************************..****..89*****************************************.66.79*...
+UniRef90_Q3AMV7/35-274                --NVTYDDIHNTGKANDCPTIGDSARGSIPLDAGGSYELREICMHPVQVYAKEEP-KN----IRQ--QA--E--FVEGKILT-RYTSSLDSVFGDLKVT-ESG-LQFQE-KGGIDFQPITVLVPGGEEFPFTFSSKSLN--ATAE--GSALTTSTDFEGTYRTPSYRTSNFIDPKGRALTTGVQYAQGLV-AL-GGD---
+#=GR UniRef90_Q3AMV7/35-274        PP ..68***************************************************.**....***..**..*..********.***************9.888.*****.*****************************..****..89*****************************************.98.89*...
+UniRef90_A6N1E2/1-203                 -----------------------------------KYNMKKFCLEPTSFTVKAEG-VA----KNA--PP--E--FQKTKLMT-RLTYTLDEIEGPLEVS-SDGTIKFEE-KDGIDYAAVTVQLPGGERVPFLFTIKNLV--ATGKPE--------SFGGPFLVPSYRGSSFLDPKGRGGSTGYDNAVALP-AGGRGD---
+#=GR UniRef90_A6N1E2/1-203         PP ...................................699*****************.**....***..**..*..********.****************.*********.*****************************..****75........9**********************************.777799...
+UniRef90_A5GW39/39-279                --DLTYDDIHNTGLANDCITLPESARGSISLTAGGKYSLQEMCFHPSTVAVKGEP-TN----KRQ--EA--Q--FVEGRILT-RYTSSLDSVYGDLAVT-DSG-LQFKE-KGGIDFQPITVLLPGGEEIPFTFSSKQLL--ATAD--GSAITTSTDFSGEYRTPSYRTSNFLDPKGRALTTGVGYAQGLV-A---AQD--
+#=GR UniRef90_A5GW39/39-279        PP ..68***************************************************.**....***..**..*..********.***************7.666.*****.*****************************..****..89*****************************************.9...655..
+UniRef90_B7FZ96/69-308                --ELSYLQVKGTGLANRCPEVVGED----SITPKGGQRLVDMCIEPKAWAVEEEIGKA----GRT--EK--K--FVNSKVMT-RQTYTLDGIEGALKS--EGGSIVFQE-QEGIDYAATTVQLPGGERVPFLFTVKDLV--AKGN--GGSFKPGFQMGGDFNTPSYRTGLFLDPKGRGGTTGYDMAVALP-G---LQSG-
+#=GR UniRef90_B7FZ96/69-308        PP ..689*****************988....678889*******************8456....899..9*..*..********.**************8..89*******.*****************************..****..89*****************************************.6...4445.
+UniRef90_A9CM91/57-298                ---YEYNAGKSKGFANTCPGLDNSARGSISLEKGKKYEISDFCMQPTQIFIKAET-GL----KKD--EG--NPVFQQGRLMT-RQTYTLDQVEGDLFIG-DDGKVTFEE-TDGFDYQPLTVKLPGGELVPMLFSIKKFL--GTTPIAATGISPATEIEGDVVVPSYRGGAFLDPKGRGVTSGYDNAVALP-A--KSD---
+#=GR UniRef90_A9CM91/57-298        PP ...579999**********************************************.99....988..76..445********.****************.*********.*****************************..*************************************************.9..89*...
+UniRef90_Q00GL8/97-339                --SLTYDQVKGSGLANTCPKVNKAGAGGIKIG--GLKQLSDFCLEPTSFAILEEQ-MT----QQK--GT--QTVPVPSKVTT-RQTYVLDGIEGTLSV--SEGKLKFVE-TDGIDYAPTTIQLPGGERVPFLFTVKNLV--ATAGTTADEIAPGFTMSGPFMVPSYRTGLFLDPKGRGTTTGYDQAVALP-A---MQA--
+#=GR UniRef90_Q00GL8/97-339        PP ..79*******************999998887..69*****************99.77....666..55..5126899****.***************..89*******.*****************************..*************************************************.8...555..
+UniRef90_Q3AUS6/34-273                --NVTYDDIRNTGKANDCPTIGDAARGSIPLTAGQKYELRGICMHPVQVYAKEEP-KN----ARQ--QA--E--FVEGKILT-RYTSSLDEVYGDLTVT-ESG-LQFQE-KGGIDFQPITVLVPGGEEFPFSFSSKSLK--ALAD--GAAITTSTDFEGTYRTPSYRTSNFIDPKGRALTTGVQYAQGLI-AL-GGD---
+#=GR UniRef90_Q3AUS6/34-273        PP ..68***************************************************.**....***..**..*..********.***************9.888.*****.*****************************..***9..89*****************************************.98.89*...
+UniRef90_B4WKJ1/25-269                --SLTYDDIRGSGLANDCPALTGTNMDAIPLEGSQPYQIRSLCLQPQTFLVETFP-SVNGQLKKQ--AG--R--FVEGKLLT-RSSFTLDQVSGQLQKA-SNGALTFVE-QGGFDFQPVTVQIPNGDRVPLLFTVKGLV--AKTAEAIDTIRPSTRFSGSFDVPPYRTSSFIDPKGRGLAVGYDAAVGIPIQ---AD---
+#=GR UniRef90_B4WKJ1/25-269        PP ..79************************************************987.543444889..99..9..********.****************.*********.*****************************..*************************************************55...**...
+UniRef90_A9CM92/111-343               -QSLSYMEMKGTGLSNTCPIIADSSESKLNLRA-GNYKINNMCLEPSSFQVKVPS-PD----GKT--VT--D--FEKTKLMT-RLTYTLDGIRADLAVG-GDGSWKIKE-IDGIDYAATTVQLAGGERVPFLFTVKNLA--ASGDA--------GQFLGQFDVASYRGATFLDPKGRGAATGYDNAVALP-A--ASD---
+#=GR UniRef90_A9CM92/111-343       PP .799****************************9.*********************.**....***..**..*..********.****************.*********.*****************************..****4........69**********************************.8..799...
+UniRef90_Q7XYP5/92-325                -QGLSYTDVKGSGMANTCPILNSGTTDVKGSLKAGTYKFDKFCIEPTSFQVKEDV-G------KG--KK--E--FIDVKLMT-RLTYTLDAMSGSMKVG-SGGAIEFKE-EDGIDYAPTTVQLPGGARVPFLFTVKELD--AKGDV--------SSFSGDFAVPSYRGSTFLDPKGRGAATGYDTAVAIP-AGGAGD---
+#=GR UniRef90_Q7XYP5/92-325        PP .6789******************99887766666*******************97.7......89..99..*..********.****************.*********.*****************************..****6........69**********************************.665599...
+UniRef90_A9CM93/92-325                -QGLSYLDVKGSGMANTCPVLSSGTTDVKTALKPGNYKFDKFCIEPTKFQVKEDV-G------KG--KK--E--FIDTKLMT-RLTYTLDAMSGSMKVG-SGGAIEFAE-EDGIDNAPTTVQLPGGSRVPFLFTVKELN--AKGDI--------SAFGGDFSVPSYRGSTFLDPKGRGAATGYDTAVAIP-AGGAGD---
+#=GR UniRef90_A9CM93/92-325        PP .6789******************99987776667*******************97.7......89..99..*..********.****************.*********.*****************************..****6........59**********************************.665699...
+UniRef90_B6ZHE8/67-305                --ELSYLQVKGTGLANRCAEVVGED----SIKPKPGAKLVDMCIEPKAWAVEEEVGKA----GKT--EK--K--FVNSKVMT-RQTYTLDAIEGPITV--DGGKITFNE-KEGIDYAATTVQLPGGERVPFLFTVKDLV--AKGN--GDTFKPGFQMGGDFNTPSYRTGLFLDPKGRGGTTGYDMAVALP-A---LQLG-
+#=GR UniRef90_B6ZHE8/67-305        PP ..689*****************987....5666679******************9355....778..99..*..********.***************..79*******.*****************************..****..89*****************************************.9...6666.
+UniRef90_B8C4I5/66-304                --QLSYLQVKGTGLANRCSEVIGED----TITPKSGARLVDMCIEPKAWAVEEEIGKA----GKT--EK--K--FVNSKVMT-RQTYTLEGIEGSLKT--DGGKIVFTE-EEGIDYAPTTVQLPGGERVPFLFTVKELV--ATGN--GGAFKPGFQMGGDFSVPSYRTGLFLDPKGRGGVTGYDMAVALP-G---LQSG-
+#=GR UniRef90_B8C4I5/66-304        PP ..799*****************987....5666679******************8355....778..99..*..********.**************8..79*******.*****************************..****..89*****************************************.6...4445.
+UniRef90_Q5I4B7/96-331                --QLTYAQVRGSGLANRCPTVESQG-TEVPVTS--SSRMQNFCLEPKSFAIEFET-E------PG--KK--E--FVTTKLTT-RQTYTLAFIEGALKP----NPITFTE-QDGMDFAAATVKMPDGEYVPFLFSCKQLI--AKGD--SSSFKPGFTWGGEFNVPSYRTGGFLDPKGRGMYTGYDQAVALP-AL-QADGK-
+#=GR UniRef90_Q5I4B7/96-331        PP ..79*******************98.6777776..99***************998.7......78..99..*..********.**************9....68*****.*****************************..****..79*****************************************.84.44488.
+UniRef90_C5MR70/87-294                -QSKTYMEVKGTGTANQCPTIDGGV-DSFAFKP-GKYNAKKFCLEPTSFTVKAEG-VS----KNS--AP--D--FQKTKLMT-RLTYTLDEIEGPFEVS-PDGTVKFEE-KDGIDYAAVTVQLPGGERVPFLFTIKQLV--ASGKPE--------SFSGDFLVPSYRGSSFLDPKGRGGSTGYDNAVALP-AGGRGD---
+#=GR UniRef90_C5MR70/87-294        PP .789*******************99.******9.*********************.**....***..**..*..********.****************.*********.*****************************..****75........9**********************************.777799...
+UniRef90_A7LCN2/61-262                -QSKTYLEVKGTGTANQCPTIEGGV-DSFAFKA-GKYNVKKLCLEPTSFTVKAES-VN----KNS--PP--E--FQNTKLMT-RLTYTLDEIEGPFEVA-NDGTVKFEE-KDGIDYAAVTVQLPGGERVPFLFTIKQLV--ASGKPE--------SFSGEFLVPSYRGSSFLDPKGRGGSTGYDNAVALP-AGGRGD---
+#=GR UniRef90_A7LCN2/61-262        PP .789*******************99.******9.*********************.**....***..**..*..********.****************.*********.*****************************..****75........9**********************************.777799...
+UniRef90_Q2JL96/29-260                ---LTYDQIRNTGKAAICPSVSDNARGRIEVPRGGSLKLTDVCFQPVQIEVEEEK-R------NG--EK--E--FIKAKNIM-ISAATLGPIKAEVTP--KDGVLELKV-VDGITFQPTTGQMPRRELVPFLFSVKDLV--ATAQ--GSAIDPSTDFEGEFLVPGYHSSTFLDPRGRGSNTGYDTAVGLQ-A---AK---
+#=GR UniRef90_Q2JL96/29-260        PP ...79**********************************************9987.6......89..9*..*..********.**************9..8********.*****************************..****..89*****************************************.9...98...
+UniRef90_B0L803/1-169                 --------------------------------------------------------------------------------MT-RLTYTLDEMEGPFEVS-SDETVKFEE-KDGIDYAAVTVQLPGGERVPFLFTIKQLV--ASGKP--------DSFSGEFLVPSYRGSSFLDPKGRGGSTGYDNAVALP-AGGRGD---
+#=GR UniRef90_B0L803/1-169         PP ................................................................................8*.****************.*********.*****************************..****7........59**********************************.777799...
+UniRef90_A2CCA8/46-277                ---ARFGNIVNTGRANDCPTIAAGSSGSISIGS--GDTLSDICLQPTEVFVKVSP-T-----KRK--KA--D--FAKTKIISPSNNTTIEQVFGDIS-----GSGAFAE-KGGIDFQLITVLAPNGEEVPFVFSAKDMQ--VDSN--SSSISVGTEFKGTTRTPSYRTSNFLDPKSRALTTGVDYAQGLV-AL-GGD---
+#=GR UniRef90_A2CCA8/46-277        PP ...67999***********************98..889***************88.7.....99*..**..*..*******97899**********9.....5679***.*****************************..*999..79*****************************************.98.89*...
+UniRef90_A2BP26/48-277                ---AQFTDVVNTGKANDCPTLDSSLVGSISLGN--GDSLKGICMHPTEVYVKV-P-GT----KRK--AA--E--FVSTKIISPRNNTTVTEVYGDIDS----G--TFTE-KGGIDFQLITVLTPGGLEVPFAFSAKDLT--ADLP---SSIEPGTEVSGSTFTPNYRTGDFLDPKARAKNTGVEYAQGLV-AL-GGD---
+#=GR UniRef90_A2BP26/48-277        PP ...689*************************97..889**************9.5.67....9**..**..*..*******99*************97....4..9***.*****************************..***9...79****************************************.98.89*...
+UniRef90_Q6SKR0/3-171                 -----------------------------------------------------------------------------YKLMT-RLTYTLDEISGDFKID-GSGNVELKE-EDGIDYAAVTVXMPGGERVPFLFTIKELE--AKGT--------ADAFGGEFTVPSYRGSSFLDPKGRGGSTGYDNAXALP-A--RSD---
+#=GR UniRef90_Q6SKR0/3-171         PP .............................................................................59***.****************.*********.*****************************..***9........579**********************************.9..89*...
+UniRef90_A2C062/36-265                ---ARFGNVVNTGQADACTVLPAGSSGSINADG----QFKSLCLQPTEVSVKL-P-GN----KRN--KS--D--FAIAKIISPRFNTSLDEVYGDLSG----G--KFTE-KGGIDFSLITVLAPNGEEFPFAFSVKEMV--AESK-KGKSIEPGAEFSGPTTTPSYRSADFLDPKSRAKSTGVEYAQALI-AR-GGD---
+#=GR UniRef90_A2C062/36-265        PP ...67899*****************99999887....9**************9.7.88....***..**..*..*******99*************96....4..8***.*****************************..****.69******************************************.88.89*...
+UniRef90_A9BDJ5/34-260                ----KFANIVNTGKANDCPTISAGS-GSISVDG----GLTDICMHPTEVYVKVA--RS----KRS--KA--D--FAPAKIISPRNNTTVEQVYGDMSG----G--TFKE-KGGIDFQLITVLAPNGEEYPFVFSAKEMA--VDFK--GKSISPGTEASGTTFTPSYRTGDFLDPKSRAKDTGVEYAQGLV-AL-GGD---
+#=GR UniRef90_A9BDJ5/34-260        PP ....799****************99.******8....89*************96..56....9**..**..*..*******99*************96....4..9***.*****************************..9999..89*****************************************.98.89*...
+UniRef90_B4ZG36/2-179                 -----------------------------------------------------------------------------EKVTT-RQTYTLTGIEGKLSN--EGGKLTFTE-QDGIDYAATTVQRPGGERVPFLFTVKNLV--AQAK-AGGALEPGFEWGGKFVVPSYRTGLFLDPKGRGITTGYDQAVALP-A---LQA--
+#=GR UniRef90_B4ZG36/2-179         PP .............................................................................79***.**************6..8********.*****************************..****.58******************************************.8...444..
+UniRef90_B5AWV1/2-186                 --------------------------------------------------------------------K--K--FVNTRLVT-RQTYTLEQIEGQLKS--EGGNLTFVEDQDGIDFAASTVQLPNGERVPFLFTMKKLV--AKGS--GSEFKPGFTWGGEYEVPSYRAGGFLDPKGRGMYGGYDQAVALP-A---LQADG
+#=GR UniRef90_B5AWV1/2-186         PP ....................................................................6..8..********.**************8..899****9989****************************..****..89*****************************************.8...44459
+UniRef90_D1HDP5/97-216                -QSKTYMEVKGTGTANQCPTIDGGV-DSFAFKT-GSYNMKKFCLEPTSFTVKAEG-VS----KNA--PA--E--FQNTKLMT-RLTYTLDEIEGPFEVS-SDRTVKFIE-KDGIDYAAVTVQLPGGERVPFLFTIKQ---------------------------------------------------------------
+#=GR UniRef90_D1HDP5/97-216        PP .789*******************99.******8.*********************.**....***..**..*..********.****************.*********.**************************8...............................................................
+UniRef90_D1HDP5/224-273               --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+#=GR UniRef90_D1HDP5/224-273       PP ........................................................................................................................................................................................................
+UniRef90_B3SRP8/2-160                 ---KTYMEVKGTGTANQCPTIDGGV-DSFPFKP-GKYYMKKFCLEPTSFTVKAEG-VA----KNA--PP--E--FQKTKLMT-RLTYTLDEIEGPLEVG-ADGTIKFVE-KDGIDYAAVTVQLPGGERVPFLFTVKQLI--ATGKPE--------SFSGSFLVPSYRGSSFLDPKGRGGSTGYDNAVA------------
+#=GR UniRef90_B3SRP8/2-160         PP ...79******************99.******9.*********************.**....***..**..*..********.****************.*********.*****************************..****75........9******************************97............
+UniRef90_C7DRS8/1-148                 --------VKGTGTANQCPTIDGGV-DGFPFKA-GKYNLKKFCLEPTSFTVKAEG-VS----KNS--AP--E--FQKTKLMT-RLTYTLDEIEGPLEVS-SDGTIKFEE-KDGIDYAAVTVQLPGGERVPFLFTVKQLV--ATGTP--------GKFGGSFLVPSYRGSSFLDPKGRGGPKG------------------
+#=GR UniRef90_C7DRS8/1-148         PP ........89*************99.99****9.*********************.**....***..**..*..********.****************.*********.*****************************..****7........49**********************9887..................
+UniRef90_Q9XH68/98-272                -QSKTYMEVKGTGTANQCPTIDGGS-ETFSFKP-GKYAGKKFCFEPTSFTVKAES-VS----KNA--PP--D--FQNTKLMT-RLTYTLDEIEGPFEVS-SDGSR---E-VQGRRRNRLRCSHRPASRRPTCASSSRSS--SLTPQ-----QTRQLHLAKFLVPSYRGSSFLDPKGRGGSPGYETPLHCQ-----LK---
+#=GR UniRef90_Q9XH68/98-272        PP .789*******************99.******9.*********************.**....***..**..*..********.****************.***76...8.99***********************9999..88884.....7999999*****************************998.....66...
+UniRef90_A4UHB8/95-240                --QLTYNQVRGSGLANRCPTVESQG-SSVPVKS--GAKLTNLCFEPKSFAVEAET-A-------K--GT--E--FVTTKLLT-RQTYTLAFINGNLDP----NPITLRE-YDGIHTLPTTVQLPNGQYVPFLFSVKKLV--ATGE--GSEFKPGFTWGGEFEVPSYRTGAFLDPR-------------------------
+#=GR UniRef90_A4UHB8/95-240        PP ..79*******************98.8999997..899***************98.8.......7..89..*..********.**************8....68*****.*****************************..****..89*************************8.........................
+UniRef90_Q7NF36/35-249                ------------GYAIECKKPTGDR-APLELRAGEVRQAYDLCLQPKKIA------------------Y--E--GRPAKIIW-GQTAPLGPVIAELHQN-AQGKPAMEV-TGGRNTYQMTLQV-GSERIAFNFSASGLD--AVSATPRNVVDTSTDFTGELVVPSLRGLGYTDSRGRGTDYGYENSQSTY-ANSGAA---
+#=GR UniRef90_Q7NF36/35-249        PP ............99******99975.9********************998..................5..6..6789****.****************.*********.************9.***************..*************************************************.866667...
+UniRef90_Q00WJ2/15-97                 -QGLTYLQVKGTGLANTCPVVEGGVSGK-DIKA-GDYKLERFCMEPTSFTVKEES-QF----KAG--ES--E--FQKTRLMT-RLTYTLDGMTGDFKX------------------------------------------------------------------------------------------------------
+#=GR UniRef90_Q00WJ2/15-97         PP .679********************9665.9998.9********************.**....***..**..*..********.************996......................................................................................................
+UniRef90_Q00WJ2/103-136               --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+#=GR UniRef90_Q00WJ2/103-136       PP ........................................................................................................................................................................................................
+UniRef90_Q157M6/72-179                -QSKTYMEVKGTGTANQCPTIEGGV-GSFAFKP-GKYTAKKFCLEPTSFTVKAEG-VS----KNS--AP--D--FQKTKLMT-RLTYTLDEIEGPFEVS-PDGTVKFEE-KDGIDYAAVTVQLPG---------------------------------------------------------------------------
+#=GR UniRef90_Q157M6/72-179        PP .789*******************99.******9.*********************.**....***..**..*..********.****************.*********.*************97...........................................................................
+UniRef90_Q157M5/72-179                -QSKTYMEVKGTGTANQCPTIEGGV-ASFAFKP-GKYNAKKFCLEPTSFTVKAGS-VN----KNA--PP--D--FQKTKLMT-RLTYTLDEIEGPFEVS-SDGTVKFEE-KDGIDYAAVTVQLPG---------------------------------------------------------------------------
+#=GR UniRef90_Q157M5/72-179        PP .789*******************99.9*****9.*********************.**....***..**..*..********.****************.*********.*************97...........................................................................
+UniRef90_Q9SW65/46-141                ----------------------------------------------------------------------------------------------------------------------------------------------------------RGYFGPKSIPSAFTQGHVGNKSD-QYQGYDNAVALP-A--RGN---
+#=GR UniRef90_Q9SW65/46-141        PP ..........................................................................................................................................................5567899**************99.99**********.9..8**...
+UniRef90_Q67E03/113-206               -QSKTYMEVKGTGTANQCPTIDGGS-ETFSFKP-GKYAGKKFCFEPTSFTVKAES-VS----KNA--PP--E--FQNTKLMT-RLTYTLDEIEGPFEVS-SDGKRELQE-R-----------------------------------------------------------------------------------------
+#=GR UniRef90_Q67E03/113-206       PP .789*******************99.******9.*********************.**....***..**..*..********.****************.*******99.6.........................................................................................
+UniRef90_B4ZG32/90-145                -EQLTYEQVKGSGLANRCPTVEMEG-SAIKVP--GGARMKKMCFEPKSFAVEAET-KS----GKK---------------------------------------------------------------------------------------------------------------------------------------
+#=GR UniRef90_B4ZG32/90-145        PP .589*******************88.565555..79******************9.98....665.......................................................................................................................................
+UniRef90_B4ZG32/152-206               -EQLTYEQVKGSGLANRCPTVEMEG-STIKVPA--GARMKKMCFEPKSFAVEAET-KS----GK----------------------------------------------------------------------------------------------------------------------------------------
+#=GR UniRef90_B4ZG32/152-206       PP .589*******************98.8888886..99*****************9.98....66........................................................................................................................................
+UniRef90_P84989/31-55                 ---------------------------------------------------------------------------------------------------------------DGIDYAAVTVQLPGGERVPFLFTIK----------------------------------------------------------------
+#=GR UniRef90_P84989/31-55         PP ...............................................................................................................9***********************9................................................................
+UniRef90_P84989/72-100                --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+#=GR UniRef90_P84989/72-100        PP ........................................................................................................................................................................................................
+UniRef90_B4ZG24/88-142                -EQLTYEQVKGSGLANRCPTVEMEG-STIKVSS--GARMKKMCFEPKSFAVEAET-KS----GK----------------------------------------------------------------------------------------------------------------------------------------
+#=GR UniRef90_B4ZG24/88-142        PP .589*******************98.7777776..99*****************9.98....66........................................................................................................................................
+UniRef90_B4ZG21/89-143                -EQLTYEQVKGSGLANRCPTVEMEG-SSIKVPA--GARMKKMCFEPKSFAVEAET-KS----GK----------------------------------------------------------------------------------------------------------------------------------------
+#=GR UniRef90_B4ZG21/89-143        PP .589*******************98.8888887..99*****************9.98....66........................................................................................................................................
+UniRef90_B4ZG23/90-144                -EQLTYEQVKGSGLANRCPTVEMEG-STIKVPA--GARMKKMCFEPKSFAVEAET-KS----GK----------------------------------------------------------------------------------------------------------------------------------------
+#=GR UniRef90_B4ZG23/90-144        PP .589*******************98.8888886..99*****************9.98....66........................................................................................................................................
+UniRef90_B4ZG20/86-140                -EQLTYEQVKGSGLANRCPTVEMEG-STIKVPA--GARMKKMCFEPKSFAVEAET-KS----GK----------------------------------------------------------------------------------------------------------------------------------------
+#=GR UniRef90_B4ZG20/86-140        PP .589*******************98.8888886..99*****************9.98....66........................................................................................................................................
+UniRef90_C6A4Q6/407-494               --------------------------------------------------------------------------IPKTKVQI-GNETYITNIDGSLEKEMPKGNYNITVSKEGYENHQLTLNLEDGEERDVTITLKKLLHYAKVELESDHLTTGFDFQPSYKI-------------------------------------
+#=GR UniRef90_C6A4Q6/407-494       PP ..........................................................................679*****.**************9989*******98****************************888*******************997.....................................
+UniRef90_P84718/1-17                  ---------------------------------------------------------------------------------------------------------------DGIDYAAVTVQLPGGER------------------------------------------------------------------------
+#=GR UniRef90_P84718/1-17          PP ...............................................................................................................8***************7........................................................................
+UniRef90_P84718/17-33                 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------RGGSTGYDNAVALP-A---GG---
+#=GR UniRef90_P84718/17-33         PP ................................................................................................................................................................................9*************.8...43...
+UniRef90_P83504/13-31                 -QSKTYMEVKGTGTANQCPT------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+#=GR UniRef90_P83504/13-31         PP .799***************7....................................................................................................................................................................................
+UniRef90_B4ZG37/81-100                --SLTYQQIKGTGLANTCPKVE----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+#=GR UniRef90_B4ZG37/81-100        PP ..79***************985..................................................................................................................................................................................
+#=GC PP_cons                          .678*******************99*99999999*********************.99....99*..*9..*..********.****************.9*9******.*****************************..****889******99**********************************.8...89...
+#=GC RF                               xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx.xx....xxx..xx..x..xxxxxxxx.xxxxxxxxxxxxxxxx.xxxxxxxxx.xxxxxxxxxxxxxxxxxxxxxxxxxxxxx..xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx.x...xx...
+
+1s5lO                                 ---EEELARANVKRF--S--LTKGQISLNVAKVDGRTGEIAGTFESEQLSDDDMGAH-EPHEVKIQGVFYASIE
+UniRef90_B2IZ52/33-273                ---DEELTRTNVKRA--E--NLNGKISLQIAKVDSSSGEIAGTFESEQPSDTDLGAG-EPKEVKIRGLFFARVE
+#=GR UniRef90_B2IZ52/33-273        PP ...************..*..*************************************.**************97
+UniRef90_P13907/33-273                ---DEDLTRTNVKRA--E--ILNGKISLQIAKVDSSSGEIAGTFESEQPSDTDLGAD-EPKEVKIRGIFYARVE
+#=GR UniRef90_P13907/33-273        PP ...************..*..*************************************.**************97
+UniRef90_B8HTW9/31-271                ---EDELTRANVKRF--D--VTKGKISLQVSKVNSRTGEIAGTFESEQLSDDDMGAH-ESKEMKIQGIFYSRIE
+#=GR UniRef90_B8HTW9/31-271        PP ...************..*..*************************************.**************97
+UniRef90_P0A431/29-270                ---EEELARANVKRF--S--LTKGQISLNVAKVDGRTGEIAGTFESEQLSDDDMGAH-EPHEVKIQGVFYASIE
+#=GR UniRef90_P0A431/29-270        PP ...************..*..*************************************.*************996
+UniRef90_B9YFM8/33-273                ---DEDLTRTNVKRA--E--ILSGKISLQVAKIDSSTGEIAGTFVSEQPSDTDLGAG-EPKEVKIRGLFYGRVE
+#=GR UniRef90_B9YFM8/33-273        PP ...************..*..*************************************.**************97
+UniRef90_A0ZI26/34-274                ---DEELTRANVKRV--E--TLDGTISLQVAKVDSVSGEIAGTFESEQPSDTDLGAG-EPKEVKIRGLFYARVE
+#=GR UniRef90_A0ZI26/34-274        PP ...************..*..*************************************.**************97
+UniRef90_Q943W1/99-333                ---EEELAKENVKNA--S--SSTGNITLSVTKSKPETGEVIGVFESVQPSDTDLGAK-VPKDVKIQGVWYAQLE
+#=GR UniRef90_Q943W1/99-333        PP ...************..*..*************************************.**************97
+UniRef90_A5BVF4/77-311                ---EEELKKENIKDA--S--SSTGKITLSVTKSKPETGEVIGVFESIQPSDTDLGAK-TPKEVKIQGFWYGQLE
+#=GR UniRef90_A5BVF4/77-311        PP ...************..*..*************************************.**************97
+UniRef90_UPI00015CD9D9/97-331         ---EEELKKENIKDA--S--SSTGKITLSVTKSKPETGEVIGVFESIQPSDTDLGAK-TPKEVKIQGFWYGQLE
+#=GR UniRef90_UPI00015CD9D9/97-331 PP ...************..*..*************************************.**************97
+UniRef90_C6TC92/94-327                ---EEELAKENNKSA--S--SSKGKITLSVTKTKPETGEVIGVFESVQPSDTDLGAK-APKDVKIQGIWYAQL-
+#=GR UniRef90_C6TC92/94-327        PP ...************..*..*************************************.*************98.
+UniRef90_B9S8R7/99-333                ---EEELAKENTKNA--A--SSVGKITLSVTGSKPETGEIIGVFESVQPSDTDLGAK-TPKDVKIQGIWYAQLE
+#=GR UniRef90_B9S8R7/99-333        PP ...************..*..*************************************.**************97
+UniRef90_P26320/98-332                ---EEELQKENVKNT--A--SLTGKITFTVTKSNPQTGEVIGVFESIQPSDTDLGAK-TPKDVKIQGIWYAQLE
+#=GR UniRef90_P26320/98-332        PP ...************..*..*************************************.**************97
+UniRef90_B7KEG7/32-272                ---AQDF--ANVKST--D--MGKGTMSLQITKVDGSTGEIAGVFESEQPSDTDLGAK-EPVDVKIRGIFYARIE
+#=GR UniRef90_B7KEG7/32-272        PP ...8887..79****..*..*************************************.**************97
+UniRef90_Q9LRC4/97-330                ---EEELTKENIKNT--S--SSTGKITLGVTKSKPETGEVIGVFESLQPSDTDLGAK-VPKDVKIQGIWYAQL-
+#=GR UniRef90_Q9LRC4/97-330        PP ...************..*..*************************************.*************98.
+UniRef90_B4FRF2/1-230                 ---EEELQKENIKNA--A--SSTGNITLSVTKSNPETGEVIGVFESVQPSDTDLGAK-APKDVKIQGVWYAQLE
+#=GR UniRef90_B4FRF2/1-230         PP ...************..*..*************************************.**************97
+UniRef90_P14226/94-328                ---EEELGKENNKSA--A--SSKGKITLSVTQTKPETGEVIGVFESIQPSDTDLGAK-APKDVKIQGVWYAQLE
+#=GR UniRef90_P14226/94-328        PP ...************..*..*************************************.**************97
+UniRef90_B4VHR5/26-268                ---EEEFVRANVKRV--E--TRSGEMSLQVSKVDSFTGEIAGTFESEQTADTDLGAEEEPEEVLIRGIFYGRVE
+#=GR UniRef90_B4VHR5/26-268        PP ...************..*..************************************747*************97
+UniRef90_Q9R6W6/32-271                ---KEDY--ANVKQT--P--IGKGSISLQVTKVDQATGEIAGVFDSEQPSDTDLGAK-EPVEVKIRGIFYARV-
+#=GR UniRef90_Q9R6W6/32-271        PP ...8877..8*****..*..*************************************.**************8.
+UniRef90_O49079/95-329                ---EEELVKENIKDV--S--SSTGKITLSVTKSKPETGEVIGVFESIQPSDTDLGSK-APKDVKIQGIWYAQLE
+#=GR UniRef90_O49079/95-329        PP ...************..*..*************************************.**************97
+UniRef90_P12359/96-330                ---EEELQKENNKNV--A--SSKGTITLSVTSSKPETGEVIGVFQSLQPSDTDLGAK-VPKDVKIEGVWYAQLE
+#=GR UniRef90_P12359/96-330        PP ...************..*..*************************************.**************97
+UniRef90_A5BPG1/97-331                ---EEELKXENIKDA--S--SSTGKITLSITKSKPESGEVIGVFESIQPSDTDLGAK-VPKDVKIQGVWYAQLE
+#=GR UniRef90_A5BPG1/97-331        PP ...************..*..*************************************.**************97
+UniRef90_P23321/98-332                ---EEELVKENVKNT--A--ASVGEITLKVTKSKPETGEVIGVFESLQPSDTDLGAK-VPKDVKIQGVWYGQLE
+#=GR UniRef90_P23321/98-332        PP ...************..*..*************************************.**************97
+UniRef90_A9NRV4/105-339               ---EEELVKENIKDV--S--ASKGEITFSVSKSKPDTGEVIGVFESLQPSDTDLGSK-APKDVKIQGIWYAQIE
+#=GR UniRef90_A9NRV4/105-339       PP ...************..*..*************************************.**************97
+UniRef90_B5VYI1/33-275                ---EEDYVNANVKLA--DTKFKAGHISLQVAKVDGETGEIAGIFESEQPSDNDLGAK-EAVEVKIRGAFYARIE
+#=GR UniRef90_B5VYI1/33-275        PP ...**********76..522689**********************************.**************97
+UniRef90_B7JVB7/32-271                ---KEDF--ANVKQT--P--IGKGTISLQVTKVDQETGEIAGVFESIQPSDTDLGAQ-EPVDVKIRGIFYAQV-
+#=GR UniRef90_B7JVB7/32-271        PP ...9988..79****..*..*************************************.**************8.
+UniRef90_P11472/33-273                ---AEDLTKENVKRF--V--TGQGEISLAVSKVDGATGEVAGVFTAIQPSDTDMGGK-EAVDVKLVGQFYGRIE
+#=GR UniRef90_P11472/33-273        PP ...************..*..*************************************.**************97
+UniRef90_A9CM98/30-259                ---AEELAKENNKSA--A--SLTGSAVFNVAKYDAATGEIAGVFESIQPSDTDLGAK-APKDVKITGLWYAQL-
+#=GR UniRef90_A9CM98/30-259        PP ...************..*..*************************************.*************98.
+UniRef90_B4WSJ8/33-273                ---SNDLARENVKAF--D--VGSGTISLQISKVDSNTGEIGGTFISEQPSDTDMGTA-AADDVRLQGVFYGRIE
+#=GR UniRef90_B4WSJ8/33-273        PP ...************..*..*************************************.**************97
+UniRef90_A0YKT9/33-275                ---GEDFAEANIKLADTQ--IDAGKISLQVSKVDGETGEIAGVFESEQPSDSDLGAK-EAVEVKIRGLFYGRIE
+#=GR UniRef90_A0YKT9/33-275        PP ...**********76115..789**********************************.**************97
+UniRef90_A9SA96/95-326                ---EEELAKENEKNT--A--ALNGNITFSIAKSNTETGEIAGTFESIQPSDTDLGSK-TPKEVKIEGIFYAQLE
+#=GR UniRef90_A9SA96/95-326        PP ...************..*..*************************************.**************97
+UniRef90_A9U1K9/43-274                ---EEELAKENEKNT--A--ALNGNITFSIAKSNVETGEIAGTFESIQPSDTDLGSK-APKEVKIEGIFYAQVE
+#=GR UniRef90_A9U1K9/43-274        PP ...************..*..*************************************.**************97
+UniRef90_A9CM96/71-302                ---AEELLKENVKNT--A--ALKGSAVFNVAKFDPKTGEVAGVFESIQPSDTDLGAK-APKDVKITGLWYAQI-
+#=GR UniRef90_A9CM96/71-302        PP ...************..*..*************************************.**************8.
+UniRef90_B0JTE4/33-274                ---SQDFQRANVKAT--E--LGKGTMSLQVTKVDASTGEFAGVFESEQPSDTDLGAK-DAEEVKIRGIFYGRLE
+#=GR UniRef90_B0JTE4/33-274        PP ...************..*..*************************************.**************97
+UniRef90_A9CM97/73-305                ---DEELFKENNKNT--A--ALKGSIVLSVAKVDASTGEIAGVFESIQPSDTDLGSK-APKDVKITGLWYGQL-
+#=GR UniRef90_A9CM97/73-305        PP ...************..*..*************************************.*************98.
+UniRef90_A9CM94/56-288                ---AEELAKENSKSA--A--SSKGSAVFSIAKVDPVTGEVAGVFESIQPSDTDLGAK-TPKDIKITGIWYAQL-
+#=GR UniRef90_A9CM94/56-288        PP ...************..*..*************************************.*************98.
+UniRef90_Q10XS5/31-272                ---SQGLVKANVKSA--ETLLKAGEMSLQITKVDGETGEVVGIFEAIQPSDTDLGAK-EALEVKVRGNFYGRV-
+#=GR UniRef90_Q10XS5/31-272        PP ...**********99..833579**********************************.**************8.
+UniRef90_A9TSK0/95-325                ---EEELAKENEKNT--A--ALNGNITFSIAKSNTETGEIAGTFESIQPSDTDLGSK-APKEVKIEGIFYAQL-
+#=GR UniRef90_A9TSK0/95-325        PP ...************..*..*************************************.*************98.
+UniRef90_A9CM95/60-290                ---SEELAKENTKSV--A--ASKGSAAFSVAVVDPATGEIAGVFESIQPSDTDLGAK-APKDIKIKGLWYAQL-
+#=GR UniRef90_A9CM95/60-290        PP ...************..*..*************************************.*************98.
+UniRef90_P10549/33-270                ---DK--FRTNKKET--P--LGKGTLSLQVTQVDGSTGEIAGIFESEQPSDTDLGAK-EPLDVKVRGIFYGRV-
+#=GR UniRef90_P10549/33-270        PP ...55..9*******..*..*************************************.**************8.
+UniRef90_A9RS28/95-325                ---EEELAKENEKNT--A--ALNGNITFSIAKSNVQTGEIAGTFESFQPSDTDLGSK-APKEVKIEGIFYAQL-
+#=GR UniRef90_A9RS28/95-325        PP ...************..*..*************************************.*************98.
+UniRef90_Q6Q300/33-274                ---EEELTRANIKQY--E--SRTGEISLQIAKIDEKTGEIAGTFESEQTSSTDMGAE-DPEEVRIRGIFYARL-
+#=GR UniRef90_Q6Q300/33-274        PP ...************..*..*************************************.*************98.
+UniRef90_A9CM99/104-336               ---RDDLEKENLKST--S--AAEGNIVFTVAQSNPESGEVVGTFESVQPSDTDLGAK-QAKEVKISGIWYGQL-
+#=GR UniRef90_A9CM99/104-336       PP ...************..*..*************************************.*************98.
+UniRef90_A1XYU1/37-274                ---NEELSVENVKRY--V--DGSGKMSLFINKVDSETGEFAGVFSATQPSDTDMGGK-EAVDVKITGQLYGRLE
+#=GR UniRef90_A1XYU1/37-274        PP ...************..*..*************************************.**************97
+UniRef90_Q9SBN6/59-291                ---AEELLKENVKST--K--ALKGSAVFSVAKVNTATGEIAGVFESIQPSDTDLGAK-PPKDIKITGLWYGQL-
+#=GR UniRef90_Q9SBN6/59-291        PP ...************..*..*************************************.*************98.
+UniRef90_A4SAM4/68-299                ---SEELQKENQKNT--A--ALKGSAVFNVAKYDPATGEIAGVFESIQPSDTDLGAK-VPKDVKITGLWYANL-
+#=GR UniRef90_A4SAM4/68-299        PP ...************..*..*************************************.*************87.
+UniRef90_A9CMA1/92-324                ---EDALQKENQKSY--K--ALSGNITFSVAKSNVETGEIGGVFTSVQPSDTDMGAK-VPKDVKIEGIWYAQL-
+#=GR UniRef90_A9CMA1/92-324        PP ...************..*..*************************************.*************98.
+UniRef90_Q5K289/9-254                 -EGQAELFKENNKVF--Q--VTDGSMEFAVNKVDGQTGEFSGVFVSEQLSDTDMGSK-APKKVLIKGIVYGKV-
+#=GR UniRef90_Q5K289/9-254         PP .8899**********..*..*************************************.*************98.
+UniRef90_C1EFD3/70-301                ---ADELLKENNKNV--A--ALKGSAVFNVAKYDEVTGEIAGVFESIQPSDTDLGSK-APKDVKITGLWYAQL-
+#=GR UniRef90_C1EFD3/70-301        PP ...************..*..*************************************.*************98.
+UniRef90_Q15GD2/60-305                -EGQAELFKENNKVF--Q--VTDGSMEFAVNKVDGQTGEFSGVFVSEQLSDTDMGSK-APKKVLIKGIVYGKV-
+#=GR UniRef90_Q15GD2/60-305        PP .8899**********..*..*************************************.*************98.
+UniRef90_Q68Y97/80-325                -VGQEVLRKENDKVF--Q--ETSGRIELAVNKVDPTSNEIGGVFVSEQLSDTDMGAK-EPKKLLLKGVFYARI-
+#=GR UniRef90_Q68Y97/80-325        PP .999***********..*..*************************************.*************98.
+UniRef90_P12853/58-290                ---AEELLKENVKIT--K--ALKGSAVFSVAKVDPVTGEIAGVFESIQPSDTDLGAK-PPKDIKVTGLWYAQL-
+#=GR UniRef90_P12853/58-290        PP ...************..*..*************************************.*************98.
+UniRef90_A3YXR4/32-270                ---DEDLTKENVKQY--I--EGTGTMNLSITKVDSVTGEFSGVFSAVQPSDTDMGGK-VAVDVKVTGELYGRLE
+#=GR UniRef90_A3YXR4/32-270        PP ...************..*..*************************************.**************97
+UniRef90_P27665/92-323                ---EEELAKENVKNA--S--SSTGNITLSVTKSKPETGEVIGVFESVQPSDTDLEA---PKDVKIQGVWYAQLE
+#=GR UniRef90_P27665/92-323        PP ...************..*..**********************************87...*************97
+UniRef90_Q5I4B6/86-329                -EGQTKLFKETNKVF--E--VTDGEIEMAVNKLDAASGELGGVFVAEQLSDTDMGAK-APKNVLVKGVFYGRV-
+#=GR UniRef90_Q5I4B6/86-329        PP .8899**********..*..*************************************.**************8.
+UniRef90_B0CC36/31-266                ---ADKLNRANAKRF--D--LTKGSISMDVASVDSETGEFGGTFESEQFSDSDLGAI-DPLEVKVRGIFYGRV-
+#=GR UniRef90_B0CC36/31-266        PP ...************..*..*************************************.**************8.
+UniRef90_Q5CC91/101-340               ---QEELAKENDKQN--I--TREGQISLQVVRVDGATGEIAGVWESSQPGDDDLGSK-NPKPVKLSGVWYARV-
+#=GR UniRef90_Q5CC91/101-340       PP ...************..*..*************************************.**************8.
+UniRef90_A9CMA0/69-301                ---AEELLKENIKST--A--ALKGSAVFSVAKVDSGTGEVAGIFESVQPSDTDLGAK-VPKDVKITGVWYGQI-
+#=GR UniRef90_A9CMA0/69-301        PP ...************..*..*************************************.*************98.
+UniRef90_Q8L878/67-309                -GGDESLFKENDKKF--D--VGTGTIEMKVTAVNAELGEFGGVFVQKQPSDTDLGSK-QPKEVLLKGQFFGTV-
+#=GR UniRef90_Q8L878/67-309        PP .459***********..*..*************************************.*************98.
+UniRef90_B7SSL7/76-318                IEGDAELFGENNKTF--D--VTKGNIEFEVNRVDPSNGEIGGVFVSKQKGDTDMGSK-VPKDLLIKGIFYGRLE
+#=GR UniRef90_B7SSL7/76-318        PP 77799**********..*..*************************************.**************97
+UniRef90_Q7X9V5/59-301                VEGDAELFKENNKVF--D--VLGGQIEFEVNRVNAEEGEIGGVFVSTQASDTDMGGK-EPQTILLKGIFYGRIE
+#=GR UniRef90_Q7X9V5/59-301        PP 77799**********..*..*************************************.**************97
+UniRef90_B5IPY8/32-268                ----DDFTGETVKRY--L--DGKGTMELSITKVDGNTGEFAGVFTAVQPSDTDMGTK-NALDVKITGQLYGRLE
+#=GR UniRef90_B5IPY8/32-268        PP ....469********..*..*************************************.**************97
+UniRef90_Q05QK4/32-271                ---EEGLEKDNTKRY--I--DGVGQMSLSITKVDPETGEFAGVFSAIQPSDSDMGGR-EVVDIKISGDLYGRLE
+#=GR UniRef90_Q05QK4/32-271        PP ...************..*..*************************************.**************97
+UniRef90_A3Z8N5/34-272                ---YEELQTENVKRY--I--DGTGVMSLSITKVDPETGEFAGVFTAIQPSDSDMGGR-EIVDVKITGELYGRLE
+#=GR UniRef90_A3Z8N5/34-272        PP ...************..*..*************************************.**************97
+UniRef90_A5GIL4/32-271                ---YKELESENVKRY--I--DGQGVMSMSITKVDPETGEFAGVFSAIQPSDSDMGGR-EIVDVKINGELYGRLE
+#=GR UniRef90_A5GIL4/32-271        PP ...************..*..*************************************.**************97
+UniRef90_P46483/102-334               ---DEEYAKENSKST--A--ASVGTIAFKVAKVNAETGEIAGVFESIQPSDTDLGAK-VPKDIKTSGVWYAQI-
+#=GR UniRef90_P46483/102-334       PP ...************..*..*************************************.*************98.
+UniRef90_B5A4J2/96-329                ---EEELVKENNKSI--K--PLSGKAVLSIAKYDPATGEVAGVFQSVQPSDTDLGAK-VPKDIKIQGLWYAQL-
+#=GR UniRef90_B5A4J2/96-329        PP ...************..*..*************************************.*************98.
+UniRef90_Q0ID87/32-271                ---YEELESENVKRY--I--DGTGEMSFSITKVDPETGEFAGVFTAIQPSDSDMGGR-EIVDVKISGEVFGRLE
+#=GR UniRef90_Q0ID87/32-271        PP ...************..*..*************************************.**************97
+UniRef90_Q3AMV7/35-274                ---DEQLEKDNNKRY--I--DGVGTMSLSITKVDPETGEFAGVFSAIQPSDSDMGGR-EVVDIKITGDLYGRLE
+#=GR UniRef90_Q3AMV7/35-274        PP ...************..*..*************************************.**************97
+UniRef90_A6N1E2/1-203                 ---EEELAKENVKNA--S--SSTGNITLSVTKSKPETGEVIGVFESVQPSDTDLGAK-VPKDVKIQGVWYAQLE
+#=GR UniRef90_A6N1E2/1-203         PP ...************..*..*************************************.**************97
+UniRef90_A5GW39/39-279                -IGEDELNSENVKRY--I--DGTGTMSFSITRVDAETGEFAGVFTAVQPSDSDMGGR-ETFDVQVSGELYGRLE
+#=GR UniRef90_A5GW39/39-279        PP .889***********..*..*************************************.**************97
+UniRef90_B7FZ96/69-308                EEGDDDLFKENNKTF--D--ITTGRIEMEVNKVNAEEQEIGGVFVATQLSDTDMGSK-VPKKVLTKGIFYARVE
+#=GR UniRef90_B7FZ96/69-308        PP 56799**********..*..*************************************.**************97
+UniRef90_A9CM91/57-298                ---DEELIKENNKSA--L--DSPGHLSLQVVRVDGSSGEFAGVFNHEQLSDTDLGAK-VPKEIKLSGVFYGRV-
+#=GR UniRef90_A9CM91/57-298        PP ...************..*..*************************************.**************8.
+UniRef90_Q00GL8/97-339                -GGDEEMFKENDKKF--D--VGKGSIELKVTQVNTELKEIGGVFVHKQPGDTDLGSK-EPKEILLKGNWFATVE
+#=GR UniRef90_Q00GL8/97-339        PP .56************..*..*************************************.*************996
+UniRef90_Q3AUS6/34-273                ---EKDLEKDNNKRY--I--DGIGTMSMSITKVDPETGEFAGVFTAIQPSDSDMGGR-EVVDIKVVGELYGRLE
+#=GR UniRef90_Q3AUS6/34-273        PP ...************..*..*************************************.**************97
+UniRef90_B4WKJ1/25-269                ---REAFSRQNNKSF--K--VGTGNIVLQVDRVNQSTGEISGSFESQQPSDTDFGSK-PAMTVKILGQFYSRI-
+#=GR UniRef90_B4WKJ1/25-269        PP ...************..*..*************************************.*************98.
+UniRef90_A9CM92/111-343               ---TEELAKENTKNI--A--GSVGTIAFKVAKVNTETGEVAGVFESIQPSDTDLGSK-VPKDIKTAGVWYGQI-
+#=GR UniRef90_A9CM92/111-343       PP ...************..*..*************************************.*************98.
+UniRef90_Q7XYP5/92-325                ---EDALGKENNKSI--K--PLAGKAQLSIAKYDAATGEVAGVFQSIQPSDTDLGAK-VPKDIKIQGLWYAQL-
+#=GR UniRef90_Q7XYP5/92-325        PP ...************..*..*************************************.*************98.
+UniRef90_A9CM93/92-325                ---EEALGKENNKSI--K--PLVGKAQLSIAKYDPATGEVAGVFQSVQPSDTDLGAK-VPKDIKVQGVWYAQL-
+#=GR UniRef90_A9CM93/92-325        PP ...************..*..*************************************.*************98.
+UniRef90_B6ZHE8/67-305                EEGDAELFGENNKVF--D--ITQGRIEMEVNKVNAEDSEIGGVFVATQLSDTDMGSK-TPKKVLTKGIFYAKV-
+#=GR UniRef90_B6ZHE8/67-305        PP 77899**********..*..*************************************.*************98.
+UniRef90_B8C4I5/66-304                EEGDAELFKENNKTF--E--VGNGRIEMEVNKVNAEESEIGGVFVASQSGDTDMGSK-VPKKILTKGIFYAKI-
+#=GR UniRef90_B8C4I5/66-304        PP 56799**********..*..*************************************.*************98.
+UniRef90_Q5I4B7/96-331                -GGQEELFKETNKVF--D--IGKGAIEMEVNKVNQELGEIGGVFVSKQPSDTDMGAK-APKTVLLKGIFYGKI-
+#=GR UniRef90_Q5I4B7/96-331        PP .99************..*..*************************************.*************98.
+UniRef90_C5MR70/87-294                ---EEELQKENVKNT--A--SLTGKITFTVTKSNPQTGEVIGVFES----------------------------
+#=GR UniRef90_C5MR70/87-294        PP ...************..*..************************97............................
+UniRef90_A7LCN2/61-262                ---EEELTKENIKNT--A--SSTGKITLSVTKSKPETGEL----------------------------------
+#=GR UniRef90_A7LCN2/61-262        PP ...************..*..*******************8..................................
+UniRef90_Q2JL96/29-260                ---DD--FATNRKVD--E--VSQGKMSLRIARVDPSTGEMAGSFVSIQPSSTEQGAM-EPHTVRVQGLFYARL-
+#=GR UniRef90_Q2JL96/29-260        PP ...88..789*****..*..*************************************.*************98.
+UniRef90_B0L803/1-169                 ---EEELLKENNKNA--A--SSKGTITLSVSKSKPETGEVIGVFQSLQPSDTDLGAK-TPKDVKIEGIWYAQLE
+#=GR UniRef90_B0L803/1-169         PP ...************..*..*************************************.**************97
+UniRef90_A2CCA8/46-277                ---DKDLQTENVKRY--I--DGKGQITLSVDSVDAGSNEFAGTFVALQTADTDMGSK-EARDLKISGVLYGR--
+#=GR UniRef90_A2CCA8/46-277        PP ...************..*..*************************************.*************8..
+UniRef90_A2BP26/48-277                ---DEELAKENIKVD--V--NGTGVITLSINNVDSDTDEFAGTFEAIQPSDTDMGSK-DPLDVKIIGELYGR--
+#=GR UniRef90_A2BP26/48-277        PP ...************..*..*************************************.*************8..
+UniRef90_Q6SKR0/3-171                 ---PDELQKENNKSV--A--ALKGQAVFSIAKVDPATGEIAGVFESIQPSDTDLGSK-APKDVKIIGLWYGQL-
+#=GR UniRef90_Q6SKR0/3-171         PP ...************..*..*************************************.*************98.
+UniRef90_A2C062/36-265                ---DEDLARENVKDD--L--GGKGEITLTVDSVDADTNEFGGQFVAIQPSDNDLGSK-DPVDIKIKGIFYGR--
+#=GR UniRef90_A2C062/36-265        PP ...************..*..*************************************.*************8..
+UniRef90_A9BDJ5/34-260                ---DEELAKENIKRD--L--SGEGVITLSIDSVDSDTEEFSGSFVAIQPSDNDLGSK-EPVDVKIVGELYGR--
+#=GR UniRef90_A9BDJ5/34-260        PP ...************..*..*************************************.*************8..
+UniRef90_B4ZG36/2-179                 -GGDEALYAENNKKF--D--VLAGNIEMKVTSVNSELGEIGGVFVQQQPSDTDLGGK-TPITLQLKGSWFATVE
+#=GR UniRef90_B4ZG36/2-179         PP .459***********..*..*************************************.*************997
+UniRef90_B5AWV1/2-186                 REGQEELFAETNKVF--D--IGKGAIEMEVNKVNERLNEIGGVFVTKFPSDTDMGAK-APKTMLLKGIFYGKV-
+#=GR UniRef90_B5AWV1/2-186         PP 999************..*..*************************************.*************97.
+UniRef90_D1HDP5/97-216                --------------------------------------------------------------------------
+#=GR UniRef90_D1HDP5/97-216        PP ..........................................................................
+UniRef90_D1HDP5/224-273               -----------------------NAITLSITKSKPESGEVIGVFESIQPSDTDLGAK-VPKDVKIQGVWYAQLE
+#=GR UniRef90_D1HDP5/224-273       PP .......................579*******************************.**************97
+UniRef90_B3SRP8/2-160                 --------------------------------------------------------------------------
+#=GR UniRef90_B3SRP8/2-160         PP ..........................................................................
+UniRef90_C7DRS8/1-148                 --------------------------------------------------------------------------
+#=GR UniRef90_C7DRS8/1-148         PP ..........................................................................
+UniRef90_Q9XH68/98-272                ---AEETKRSSQR-------------------------------------------------------------
+#=GR UniRef90_Q9XH68/98-272        PP ...6777777666.............................................................
+UniRef90_A4UHB8/95-240                --------------------------------------------------------------------------
+#=GR UniRef90_A4UHB8/95-240        PP ..........................................................................
+UniRef90_Q7NF36/35-249                ---YDEATKESRAR---E--TGEGRMVLSIESVNSQTGEIAGSFKSKQSSGL---AV-LPGEVDVEGRFIGT--
+#=GR UniRef90_Q7NF36/35-249        PP ...99999999885...9..*******************************9...99.***********997..
+UniRef90_Q00WJ2/15-97                 --------------------------------------------------------------------------
+#=GR UniRef90_Q00WJ2/15-97         PP ..........................................................................
+UniRef90_Q00WJ2/103-136               --------------------------------------XIAGVFESIQPSDTDLGAK-VPKDVKITGLWYGNI-
+#=GR UniRef90_Q00WJ2/103-136       PP ......................................69*****************.*************97.
+UniRef90_Q157M6/72-179                --------------------------------------------------------------------------
+#=GR UniRef90_Q157M6/72-179        PP ..........................................................................
+UniRef90_Q157M5/72-179                --------------------------------------------------------------------------
+#=GR UniRef90_Q157M5/72-179        PP ..........................................................................
+UniRef90_Q9SW65/46-141                ---NEELAKENNK------------ITLSVTKSNPESGEVIGAFESIQPSDTDLGAT-TPKDVKIQGIWYCQL-
+#=GR UniRef90_Q9SW65/46-141        PP ...**********............9*******************************.*************98.
+UniRef90_Q67E03/113-206               --------------------------------------------------------------------------
+#=GR UniRef90_Q67E03/113-206       PP ..........................................................................
+UniRef90_B4ZG32/90-145                --------------------------------------------------------------------------
+#=GR UniRef90_B4ZG32/90-145        PP ..........................................................................
+UniRef90_B4ZG32/152-206               --------------------------------------------------------------------------
+#=GR UniRef90_B4ZG32/152-206       PP ..........................................................................
+UniRef90_P84989/31-55                 --------------------------------------------------------------------------
+#=GR UniRef90_P84989/31-55         PP ..........................................................................
+UniRef90_P84989/72-100                -------------------------------RSKPETGEIIGVFESLQPSDTDLGAK-TPK-------------
+#=GR UniRef90_P84989/72-100        PP ...............................5789**********************.*97.............
+UniRef90_B4ZG24/88-142                --------------------------------------------------------------------------
+#=GR UniRef90_B4ZG24/88-142        PP ..........................................................................
+UniRef90_B4ZG21/89-143                --------------------------------------------------------------------------
+#=GR UniRef90_B4ZG21/89-143        PP ..........................................................................
+UniRef90_B4ZG23/90-144                --------------------------------------------------------------------------
+#=GR UniRef90_B4ZG23/90-144        PP ..........................................................................
+UniRef90_B4ZG20/86-140                --------------------------------------------------------------------------
+#=GR UniRef90_B4ZG20/86-140        PP ..........................................................................
+UniRef90_C6A4Q6/407-494               --------------------------------------------------------------------------
+#=GR UniRef90_C6A4Q6/407-494       PP ..........................................................................
+UniRef90_P84718/1-17                  --------------------------------------------------------------------------
+#=GR UniRef90_P84718/1-17          PP ..........................................................................
+UniRef90_P84718/17-33                 --------------------------------------------------------------------------
+#=GR UniRef90_P84718/17-33         PP ..........................................................................
+UniRef90_P83504/13-31                 --------------------------------------------------------------------------
+#=GR UniRef90_P83504/13-31         PP ..........................................................................
+UniRef90_B4ZG37/81-100                --------------------------------------------------------------------------
+#=GR UniRef90_B4ZG37/81-100        PP ..........................................................................
+#=GC PP_cons                          ...************..*..*************************************.*************987
+#=GC RF                               ...xxxxxxxxxxxx..x..xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx.xxxxxxxxxxxxxxxx
+//
