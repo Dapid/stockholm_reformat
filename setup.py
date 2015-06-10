@@ -9,12 +9,14 @@ ext = Extension('stockholm_reformat.creformat',
 
 setup(name=module, version='0.1',
       ext_modules=[ext],
-      description='Stockholm to A3M multiple sequence alignment reformater',
+      description='Fast Stockholm to A3M Multiple Sequence Alignment reformater',
       url='https://github.com/Dapid/stockholm_reformat',
       author='David Men\'endez Hurtado',
+      author_email='davidmenhur@gmail.com',
       license='BSD 3-clause',
       packages=['stockholm_reformat'],
       test_suite='nose.collector',
       tests_require=['nose'],
-      scripts=['bin/stockholm_to_a3m']
+      scripts=['bin/stockholm_to_a3m'],
+      zip_safe=True
     )
