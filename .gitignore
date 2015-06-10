@@ -48,10 +48,26 @@ coverage.xml
 *.pot
 
 # Django stuff:
-*.log
 
-# Sphinx documentation
-docs/_build/
 
-# PyBuilder
-target/
+.idea/
+*.pyc
+*.swp
+.#*
+[#]*#
+*~
+*$
+*.bak
+.idea/*
+*.kdev4
+*.org
+.project
+.pydevproject
+*.rej
+.settings/
+.*.sw[nop]
+.sw[nop]
+*.tmp
+*.vim
+tags
+
