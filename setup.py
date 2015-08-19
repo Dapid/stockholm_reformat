@@ -6,7 +6,7 @@ module = 'stockholm_reformat'
 ext = Extension('stockholm_reformat.creformat',
                 sources=['stockholm_reformat/creformat.c'],
                 extra_compile_args=['-O2', '-mtune=native', '-funroll-loops',
-                                    '-fpic', '-flto', '-g0'])
+                                    '-fpic'])
 
 setup(name=module, version='0.1',
       ext_modules=[ext],
