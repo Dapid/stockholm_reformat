@@ -10,7 +10,7 @@ if __name__ == '__main__':
         exit(1)
 
     try:
-        from stockholm_reformat import cparse_aln
+        from stockholm_reformat import cparse_aln as parse_aln
     except ImportError:
         from stockholm_reformat import parse_aln
 

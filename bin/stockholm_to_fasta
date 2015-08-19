@@ -10,7 +10,7 @@ if __name__ == '__main__':
         exit(1)
 
     try:
-        from stockholm_reformat import cparse_fasta
+        from stockholm_reformat import cparse_fasta as parse_fasta
     except ImportError:
         from stockholm_reformat import parse_fasta
 

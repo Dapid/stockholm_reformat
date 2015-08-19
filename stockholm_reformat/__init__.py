@@ -3,4 +3,4 @@ try:
     from creformat import cparse_a3m, cparse_fasta, cparse_aln
 except ImportError:
     pass
-__version__ = '0.2.1'
+__version__ = '0.2.2'
