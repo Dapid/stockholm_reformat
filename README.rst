@@ -2,7 +2,7 @@
  stockholm_reformat
 ====
 
-Fast Stockholm Multiple Sequence Alignment reformater.
+Fast Stockholm to other formats Multiple Sequence Alignment reformater.
 
 Includes an API and a command line script. The pure Python version is already several times faster than the
 Perl script contained in the `MPI Bioinformatics Toolkit. <http://toolkit.tuebingen.mpg.de/reformat/help_param>`_
