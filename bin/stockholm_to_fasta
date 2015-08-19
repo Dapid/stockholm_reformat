@@ -4,7 +4,7 @@ import sys
 
 if __name__ == '__main__':
     if len(sys.argv) != 3:
-        sys.stderr.write('    Stockholm to A3M fast file converter.\n'
+        sys.stderr.write('    Stockholm to FASTA fast file converter.\n'
                          '        Usage:\n'
                          '        $ stockholm_to_fasta inputfile.sto outputfile.fasta\n')
         exit(1)
