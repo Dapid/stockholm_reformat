@@ -1,0 +1,17 @@
+#!/bin/env python
+
+import sys
+
+if __name__ == '__main__':
+    if len(sys.argv) != 3:
+        sys.stderr.write('    Stockholm to ALN fast file converter.\n'
+                         '        Usage:\n'
+                         '        $ stockholm_to_aln inputfile.sto outputfile.aln\n')
+        exit(1)
+
+    try:
+        from stockholm_reformat import cparse_aln
+    except ImportError:
+        from stockholm_reformat import parse_aln
+
+    parse_aln(sys.argv[1], sys.argv[2])
