@@ -10,6 +10,8 @@ def assert_equal_a3m(ref_file, check_file):
     check = open(check_file)
     for line in check:
         new[line.strip()] = check.next().strip()
+    check.close()
+
     _this = []
     _head = None
     for line in ref_file:
@@ -44,4 +46,7 @@ def test_cython():
     assert_equal_a3m('data/sequence.fa.a3m','data/output_c.a3m')
 
     parse_a3m('data/sequence.fa.sto', 'data/output_p.a3m')
-    assert_equal_a3m('data/output_p.fa.a3m', 'data/output_c.a3m')
+    assert_equal_a3m('data/output_p.a3m', 'data/output_c.a3m')
+
+    os.unlink('data/output_c.a3m')
+    os.unlink('data/output_p.a3m')
