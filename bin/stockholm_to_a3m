@@ -10,8 +10,8 @@ if __name__ == '__main__':
         exit(1)
 
     try:
-        from stockholm_reformat import cparse as parse
+        from stockholm_reformat import cparse_a3m as parse
     except ImportError:
-        from stockholm_reformat import parse
+        from stockholm_reformat import parse_a3m as parse
 
     parse(sys.argv[1], sys.argv[2])

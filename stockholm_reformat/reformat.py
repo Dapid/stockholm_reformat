@@ -2,7 +2,7 @@ import os
 from collections import defaultdict
 
 
-def parse(inputfile, outputfile):
+def parse_a3m(inputfile, outputfile):
     # Pre-load the file in memory, if vmtouch is installed.
     os.system('vmtouch -qt {} & >/dev/null 2>/dev/null'.format(inputfile))
 

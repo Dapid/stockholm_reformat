@@ -1,7 +1,7 @@
 import os
 from nose.exc import SkipTest
 
-from stockholm_reformat import parse
+from stockholm_reformat import parse_a3m
 
 def assert_equal_a3m(ref_file, check_file):
     new = dict()
@@ -29,18 +29,19 @@ def assert_equal_a3m(ref_file, check_file):
 
 
 def test_purepython():
-    parse('data/sequence.fa.sto', 'data/output.a3m')
+    parse_a3m('data/sequence.fa.sto', 'data/output.a3m')
     assert_equal_a3m('data/sequence.fa.a3m','data/output.a3m')
     os.unlink('data/output.a3m')
 
+
 def test_cython():
     try:
-        from stockholm_reformat import cparse
+        from stockholm_reformat import cparse_a3m
     except ImportError:
         raise SkipTest('Compiled version unavailable')
 
-    cparse('data/sequence.fa.sto', 'data/output_c.a3m')
+    cparse_a3m('data/sequence.fa.sto', 'data/output_c.a3m')
     assert_equal_a3m('data/sequence.fa.a3m','data/output_c.a3m')
 
-    parse('data/sequence.fa.sto', 'data/output_p.a3m')
+    parse_a3m('data/sequence.fa.sto', 'data/output_p.a3m')
     assert_equal_a3m('data/output_p.fa.a3m', 'data/output_c.a3m')
