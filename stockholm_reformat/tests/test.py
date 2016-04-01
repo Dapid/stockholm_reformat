@@ -112,3 +112,8 @@ def test_cython_aln():
 
     os.unlink('data/output_p.aln')
     os.unlink('data/output_c.aln')
+
+
+if __name__ == '__main__':
+    import nose
+    nose.main()
