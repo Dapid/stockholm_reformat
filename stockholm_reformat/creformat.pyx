@@ -2,21 +2,49 @@ import os
 from collections import defaultdict
 
 
-def cparse_a3m(inputfile, outputfile):
-    # Pre-load the file in memory, if vmtouch is installed.
-    os.system('vmtouch -qt {} & >/dev/null 2>/dev/null'.format(inputfile))
-    cdef str line, header, sequence, name, seq
-    cdef str s
-    cdef short int i
-    cdef list data_name
+cdef _validate_input(inputfile, outputfile):
+    if isinstance(inputfile, basestring):
+        # Pre-load the file in memory, if vmtouch is installed.
+        os.system('vmtouch -qt {} & >/dev/null 2>/dev/null'.format(inputfile))
 
-    input_ = open(inputfile)
-    output = open(outputfile, 'w')
+        input_ = open(inputfile)
+        close_input = True
+
+    elif isinstance(inputfile, file):
+        input_ = inputfile
+        close_input = False
+
+        if not input_.read(1):
+            input_.seek(-1)
+            raise IOError('The input file appears empty')
+        input_.seek(-1)
+
+    else:
+        raise ValueError('inputfile should be a file name or a'
+                         'file handler, got {} instead.'.format(type(inputfile)))
+
+    if isinstance(outputfile, basestring):
+        output = open(outputfile, 'w')
+        close_output = True
+    elif isinstance(outputfile, file):
+        output = outputfile
+        close_output = False
+    else:
+        raise ValueError('outputfile should be a file name or a'
+                         'file handler, got {} instead.'.format(type(outputfile)))
+
+    return input_, close_input, output, close_output
+
+
+cdef _read_sto(inputfile):
+    cdef str s, line, header, sequence, name
+    cdef short int i
+    cdef list referende_seq
 
     data = defaultdict(list)
     reference_seq = []
 
-    for line in input_:
+    for line in inputfile:
         line = line.strip()
         if line and not line.startswith('#'):
             header, sequence = line.split()
@@ -24,30 +52,38 @@ def cparse_a3m(inputfile, outputfile):
 
     while True:
         reference_seq.extend((s for s in sequence if s != '-'))
-        index = [1 if s != '-' else 0 for s in sequence]
-        for line in input_:
+        index = [True if s != '-' else False for s in sequence]
+        for line in inputfile:
             line = line.strip()
             if not line:
                 break
             if not line.startswith('#'):
                 try:
                     name, seq = line.split()
-                    data_name = data[name]
-                    for s, i in zip(seq, index):
-                        if i or s != '-':
-                            if not i:
-                                s = s.lower()
-                            data_name.append(s)
+                    data[name].extend(s if i else s.lower() for s, i in zip(seq, index) if i or s != '-')
                 except ValueError:
                     # End of file
                     pass
 
         try:
-            header, sequence = input_.next().split()
+            header, sequence = inputfile.next().split()
         except StopIteration:
             break
 
-    input_.close()
+    return header, reference_seq, data
+
+
+def cparse_a3m(inputfile, outputfile):
+    cdef str header, name
+    cdef list seq
+    cdef bint close_input, close_output
+
+    input_, close_input, output, close_output = _validate_input(inputfile, outputfile)
+
+    header, reference_seq, data = _read_sto(input_)
+
+    if close_input:
+        input_.close()
     os.system('vmtouch -qe {} & >/dev/null 2>/dev/null'.format(inputfile))
 
     # Write to file
@@ -55,60 +91,28 @@ def cparse_a3m(inputfile, outputfile):
     output.write(''.join(reference_seq))
     output.write('\n')
 
-    for name, seq_l in data.iteritems():
+    for name, seq in data.iteritems():
         output.write(''.join(('>', name, '\n')))
-        output.write(''.join(seq_l))
+        output.write(''.join(seq))
         output.write('\n')
-    output.close()
+
+    if close_output:
+        output.close()
+    else:
+        output.flush()
 
 
 def cparse_fasta(inputfile, outputfile):
-    # Pre-load the file in memory, if vmtouch is installed.
-    os.system('vmtouch -qt {} & >/dev/null 2>/dev/null'.format(inputfile))
-    cdef str line, header, sequence, name, seq
-    cdef str s
-    cdef short int i
-    cdef size_t j
-    cdef list data_name
+    cdef str header, name
+    cdef list seq
+    cdef bint close_input, close_output
 
-    input_ = open(inputfile)
-    output = open(outputfile, 'w')
+    input_, close_input, output, close_output = _validate_input(inputfile, outputfile)
 
-    data = defaultdict(list)
-    reference_seq = []
+    header, reference_seq, data = _read_sto(input_)
 
-    for line in input_:
-        line = line.strip()
-        if line and not line.startswith('#'):
-            header, sequence = line.split()
-            break
-
-    while True:
-        reference_seq.extend((s for s in sequence if s != '-'))
-        index = [1 if s != '-' else 0 for s in sequence]
-        for line in input_:
-            line = line.strip()
-            if not line:
-                break
-            if not line.startswith('#'):
-                try:
-                    name, seq = line.split()
-                    data_name = data[name]
-                    for j in range(len(seq)):
-                        i = index[j]
-                        if i:
-                            s = seq[j]
-                            data_name.append(s)
-                except ValueError:
-                    # End of file
-                    pass
-
-        try:
-            header, sequence = input_.next().split()
-        except StopIteration:
-            break
-
-    input_.close()
+    if close_input:
+        input_.close()
     os.system('vmtouch -qe {} & >/dev/null 2>/dev/null'.format(inputfile))
 
     # Write to file
@@ -116,67 +120,40 @@ def cparse_fasta(inputfile, outputfile):
     output.write(''.join(reference_seq))
     output.write('\n')
 
-    for name, seq_l in data.iteritems():
+    for name, seq in data.iteritems():
         output.write(''.join(('>', name, '\n')))
-        output.write(''.join(seq_l))
+        output.write(''.join((s for s in seq if not s.islower())))
         output.write('\n')
-    output.close()
+
+    if close_output:
+        output.close()
+    else:
+        output.flush()
 
 
 def cparse_aln(inputfile, outputfile):
-    # Pre-load the file in memory, if vmtouch is installed.
-    os.system('vmtouch -qt {} & >/dev/null 2>/dev/null'.format(inputfile))
-    cdef str line, header, sequence, name, seq
-    cdef str s
-    cdef short int i
-    cdef size_t j
-    cdef list data_name
+    # This is as parse_fasta, but without printing the headers in the output.
+    cdef str header, name
+    cdef list seq
+    cdef bint close_input, close_output
 
-    input_ = open(inputfile)
-    output = open(outputfile, 'w')
+    input_, close_input, output, close_output = _validate_input(inputfile, outputfile)
 
-    data = defaultdict(list)
-    reference_seq = []
+    header, reference_seq, data = _read_sto(input_)
 
-    for line in input_:
-        line = line.strip()
-        if line and not line.startswith('#'):
-            header, sequence = line.split()
-            break
-
-    while True:
-        reference_seq.extend((s for s in sequence if s != '-'))
-        index = [1 if s != '-' else 0 for s in sequence]
-        for line in input_:
-            line = line.strip()
-            if not line:
-                break
-            if not line.startswith('#'):
-                try:
-                    name, seq = line.split()
-                    data_name = data[name]
-                    for j in range(len(seq)):
-                        i = index[j]
-                        if i:
-                            s = seq[j]
-                            data_name.append(s)
-                except ValueError:
-                    # End of file
-                    pass
-
-        try:
-            header, sequence = input_.next().split()
-        except StopIteration:
-            break
-
-    input_.close()
+    if close_input:
+        input_.close()
     os.system('vmtouch -qe {} & >/dev/null 2>/dev/null'.format(inputfile))
 
     # Write to file
     output.write(''.join(reference_seq))
     output.write('\n')
 
-    for name, seq_l in data.iteritems():
-        output.write(''.join(seq_l))
+    for name, seq in data.iteritems():
+        output.write(''.join((s for s in seq if not s.islower())))
         output.write('\n')
-    output.close()
+
+    if close_output:
+        output.close()
+    else:
+        output.flush()
