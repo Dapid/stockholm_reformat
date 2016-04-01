@@ -27,7 +27,9 @@ If you have a working C compiler, you may have the compiled versions installed::
     stockholm_reformat.cparse_fasta('inputfile.sto', 'outputfile.fasta')
     stockholm_reformat.cparse_aln('inputfile.sto', 'outputfile.aln')
 
-They are around twice as fast, but the input must be the file name, not a file handler (easily fixable, if needed).
+They are around twice as fast.
+
+Both input and output can be provided as file names or file handles.
 
 From the command line::
 

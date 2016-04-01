@@ -8,7 +8,7 @@ ext = Extension('stockholm_reformat.creformat',
                 extra_compile_args=['-O2', '-mtune=native', '-funroll-loops',
                                     '-fpic'])
 
-setup(name=module, version='0.2.2',
+setup(name=module, version='0.3',
       ext_modules=[ext],
       description='Fast Stockholm to other formats Multiple Sequence Alignment reformater.',
       url='https://github.com/Dapid/stockholm_reformat',
