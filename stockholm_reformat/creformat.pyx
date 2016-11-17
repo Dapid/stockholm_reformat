@@ -1,16 +1,19 @@
 import os
 from collections import defaultdict
+import io
+
+basestring = str
 
 
 cdef _validate_input(inputfile, outputfile):
     if isinstance(inputfile, basestring):
-        # Pre-load the file in memory, if vmtouch is installed.
+        # Pre-load the io.IOBase in memory, if vmtouch is installed.
         os.system('vmtouch -qt {} & >/dev/null 2>/dev/null'.format(inputfile))
 
         input_ = open(inputfile)
         close_input = True
 
-    elif isinstance(inputfile, file):
+    elif isinstance(inputfile, io.IOBase):
         input_ = inputfile
         close_input = False
 
@@ -26,7 +29,7 @@ cdef _validate_input(inputfile, outputfile):
     if isinstance(outputfile, basestring):
         output = open(outputfile, 'w')
         close_output = True
-    elif isinstance(outputfile, file):
+    elif isinstance(outputfile, io.IOBase):
         output = outputfile
         close_output = False
     else:
@@ -39,7 +42,7 @@ cdef _validate_input(inputfile, outputfile):
 cdef _read_sto(inputfile):
     cdef str s, line, header, sequence, name
     cdef short int i
-    cdef list referende_seq
+    cdef list reference_seq
 
     data = defaultdict(list)
     reference_seq = []
@@ -66,7 +69,7 @@ cdef _read_sto(inputfile):
                     pass
 
         try:
-            header, sequence = inputfile.next().split()
+            header, sequence = next(inputfile).split()
         except StopIteration:
             break
 
@@ -91,7 +94,7 @@ def cparse_a3m(inputfile, outputfile):
     output.write(''.join(reference_seq))
     output.write('\n')
 
-    for name, seq in data.iteritems():
+    for name, seq in data.items():
         output.write(''.join(('>', name, '\n')))
         output.write(''.join(seq))
         output.write('\n')
@@ -120,7 +123,7 @@ def cparse_fasta(inputfile, outputfile):
     output.write(''.join(reference_seq))
     output.write('\n')
 
-    for name, seq in data.iteritems():
+    for name, seq in data.items():
         output.write(''.join(('>', name, '\n')))
         output.write(''.join((s for s in seq if not s.islower())))
         output.write('\n')
@@ -149,7 +152,7 @@ def cparse_aln(inputfile, outputfile):
     output.write(''.join(reference_seq))
     output.write('\n')
 
-    for name, seq in data.iteritems():
+    for name, seq in data.items():
         output.write(''.join((s for s in seq if not s.islower())))
         output.write('\n')
 

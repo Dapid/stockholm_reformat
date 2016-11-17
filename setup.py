@@ -1,21 +1,20 @@
 # -*- coding: utf8 -*-
+import setuptools
 from setuptools import setup
 from setuptools.extension import Extension
 
-module = 'stockholm_reformat'
 ext = Extension('stockholm_reformat.creformat',
                 sources=['stockholm_reformat/creformat.c'],
                 extra_compile_args=['-O2', '-mtune=native', '-funroll-loops',
                                     '-fpic'])
-
-setup(name=module, version='0.3',
+setup(name='stockholm_reformat', version='0.3.1',
       ext_modules=[ext],
       description='Fast Stockholm to other formats Multiple Sequence Alignment reformater.',
       url='https://github.com/Dapid/stockholm_reformat',
       author='David Menéndez Hurtado',
       author_email='davidmenhur@gmail.com',
       license='BSD 3-clause',
-      packages=['stockholm_reformat'],
+      packages=setuptools.find_packages(),
       test_suite='nose.collector',
       tests_require=['nose'],
       scripts=['bin/stockholm_to_a3m', 'bin/stockholm_to_fasta', 'bin/stockholm_to_aln'],

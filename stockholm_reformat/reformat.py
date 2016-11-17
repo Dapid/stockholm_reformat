@@ -3,6 +3,11 @@ from collections import defaultdict
 
 
 def _validate_input(inputfile, outputfile):
+    try:
+        basestring
+    except NameError:
+        basestring = str
+
     if isinstance(inputfile, basestring):
         # Pre-load the file in memory, if vmtouch is installed.
         os.system('vmtouch -qt {} & >/dev/null 2>/dev/null'.format(inputfile))
