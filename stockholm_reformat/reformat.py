@@ -1,12 +1,14 @@
 import os
-from collections import defaultdict
+import sys
+from collections import OrderedDict
 
 
 def _validate_input(inputfile, outputfile):
-    try:
-        basestring
-    except NameError:
+    # Python 2 compatibility
+    if sys.version_info.major == 3:
+        import io
         basestring = str
+        file = io.TextIOBase
 
     if isinstance(inputfile, basestring):
         # Pre-load the file in memory, if vmtouch is installed.
@@ -20,7 +22,6 @@ def _validate_input(inputfile, outputfile):
         close_input = False
 
         if not input_.read(1):
-            input_.seek(-1)
             raise IOError('The input file appears empty')
         input_.seek(-1)
 
@@ -42,7 +43,7 @@ def _validate_input(inputfile, outputfile):
 
 
 def _read_sto(inputfile):
-    data = defaultdict(list)
+    data = OrderedDict()
     reference_seq = []
 
     for line in inputfile:
@@ -50,6 +51,8 @@ def _read_sto(inputfile):
         if line and not line.startswith('#'):
             header, sequence = line.split()
             break
+    else:
+        raise(IOError('The file appears to be empty'))
 
     while True:
         reference_seq.extend((s for s in sequence if s != '-'))
@@ -61,13 +64,15 @@ def _read_sto(inputfile):
             if not line.startswith('#'):
                 try:
                     name, seq = line.split()
+                    if not name in data:
+                        data[name] = []
                     data[name].extend(s if i else s.lower() for s, i in zip(seq, index) if i or s != '-')
                 except ValueError:
                     # End of file
                     pass
 
         try:
-            header, sequence = inputfile.next().split()
+            header, sequence = next(inputfile).split()
         except StopIteration:
             break
 
@@ -88,7 +93,7 @@ def parse_a3m(inputfile, outputfile):
     output.write(''.join(reference_seq))
     output.write('\n')
 
-    for name, seq in data.iteritems():
+    for name, seq in data.items():
         output.write(''.join(('>', name, '\n')))
         output.write(''.join(seq))
         output.write('\n')
@@ -113,7 +118,7 @@ def parse_fasta(inputfile, outputfile):
     output.write(''.join(reference_seq))
     output.write('\n')
 
-    for name, seq in data.iteritems():
+    for name, seq in data.items():
         output.write(''.join(('>', name, '\n')))
         output.write(''.join((s for s in seq if not s.islower())))
         output.write('\n')
@@ -138,7 +143,7 @@ def parse_aln(inputfile, outputfile):
     output.write(''.join(reference_seq))
     output.write('\n')
 
-    for name, seq in data.iteritems():
+    for name, seq in data.items():
         output.write(''.join((s for s in seq if not s.islower())))
         output.write('\n')
 

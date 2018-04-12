@@ -9,7 +9,7 @@ def assert_equal_a3m(ref_file, check_file):
 
     check = open(check_file)
     for line in check:
-        new[line.strip()] = check.next().strip()
+        new[line.strip()] = next(check).strip()
     check.close()
 
     _this = []
@@ -36,14 +36,21 @@ def assert_equal_files(one, other):
     one_f = open(one)
     other_f = open(other)
     for line1, line2 in zip(one_f, other_f):
-        if not line1 == line2:
-            print line1
-            print line2
+        if not line1.strip() == line2.strip():
+            print(line1)
+            print(line2)
             raise AssertionError
     # Check we are at the end of the file:
     assert one_f.read() == ''
     assert other_f.read() == ''
 
+def assert_equal_aln(ref_file, check_file):
+    one = open(ref_file).readlines()
+    other = open(check_file).readlines()
+    one.sort()
+    other.sort()
+
+    assert one == other
 
 def test_purepython_a3m():
     parse_a3m('data/sequence.fa.sto', 'data/output.a3m')
@@ -53,7 +60,7 @@ def test_purepython_a3m():
 
 def test_cython_a3m():
     try:
-        from stockholm_reformat import cparse_a3m
+        from stockholm_reformat.creformat import cparse_a3m
     except ImportError:
         raise SkipTest('Compiled version unavailable')
 
@@ -94,7 +101,7 @@ def test_cython_fasta():
 
 def test_purepython_aln():
     parse_aln('data/sequence.fa.sto', 'data/output.aln')
-    assert_equal_files('data/sequence.fa.aln','data/output.aln')
+    assert_equal_aln('data/sequence.fa.aln','data/output.aln')
     os.unlink('data/output.aln')
 
 
@@ -105,7 +112,7 @@ def test_cython_aln():
         raise SkipTest('Compiled version unavailable')
 
     cparse_aln('data/sequence.fa.sto', 'data/output_c.aln')
-    assert_equal_files('data/sequence.fa.aln','data/output_c.aln')
+    assert_equal_aln('data/sequence.fa.aln','data/output_c.aln')
 
     parse_aln('data/sequence.fa.sto', 'data/output_p.aln')
     assert_equal_files('data/output_p.aln', 'data/output_c.aln')

@@ -1,24 +1,26 @@
 import os
+import sys
 from collections import defaultdict
-import io
-
-basestring = str
-
 
 cdef _validate_input(inputfile, outputfile):
+    # Python 2 compatibility
+    if sys.version_info.major == 3:
+        import io
+        basestring = str
+        file = io.TextIOBase
+
     if isinstance(inputfile, basestring):
-        # Pre-load the io.IOBase in memory, if vmtouch is installed.
+        # Pre-load the file in memory, if vmtouch is installed.
         os.system('vmtouch -qt {} & >/dev/null 2>/dev/null'.format(inputfile))
 
         input_ = open(inputfile)
         close_input = True
 
-    elif isinstance(inputfile, io.IOBase):
+    elif isinstance(inputfile, file):
         input_ = inputfile
         close_input = False
 
         if not input_.read(1):
-            input_.seek(-1)
             raise IOError('The input file appears empty')
         input_.seek(-1)
 
@@ -29,7 +31,7 @@ cdef _validate_input(inputfile, outputfile):
     if isinstance(outputfile, basestring):
         output = open(outputfile, 'w')
         close_output = True
-    elif isinstance(outputfile, io.IOBase):
+    elif isinstance(outputfile, file):
         output = outputfile
         close_output = False
     else:
@@ -37,7 +39,6 @@ cdef _validate_input(inputfile, outputfile):
                          'file handler, got {} instead.'.format(type(outputfile)))
 
     return input_, close_input, output, close_output
-
 
 cdef _read_sto(inputfile):
     cdef str s, line, header, sequence, name
@@ -52,6 +53,8 @@ cdef _read_sto(inputfile):
         if line and not line.startswith('#'):
             header, sequence = line.split()
             break
+    else:
+        raise(IOError('The file appears to be empty'))
 
     while True:
         reference_seq.extend((s for s in sequence if s != '-'))
@@ -74,7 +77,6 @@ cdef _read_sto(inputfile):
             break
 
     return header, reference_seq, data
-
 
 def cparse_a3m(inputfile, outputfile):
     cdef str header, name
@@ -104,7 +106,6 @@ def cparse_a3m(inputfile, outputfile):
     else:
         output.flush()
 
-
 def cparse_fasta(inputfile, outputfile):
     cdef str header, name
     cdef list seq
@@ -132,7 +133,6 @@ def cparse_fasta(inputfile, outputfile):
         output.close()
     else:
         output.flush()
-
 
 def cparse_aln(inputfile, outputfile):
     # This is as parse_fasta, but without printing the headers in the output.
