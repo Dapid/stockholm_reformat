@@ -2,15 +2,14 @@
 import setuptools
 from setuptools import setup
 from setuptools.extension import Extension
-from Cython.Build import cythonize
 
 ext = Extension('stockholm_reformat.creformat',
                 sources=['stockholm_reformat/creformat.c'],
                 extra_compile_args=['-O2', '-mtune=native', '-funroll-loops',
                                     '-fpic'])
 
-setup(name='stockholm_reformat', version='0.4',
-      ext_modules=cythonize([ext]),
+setup(name='stockholm_reformat', version='0.4.1',
+      ext_modules=[ext],
       description='Fast Stockholm to other formats Multiple Sequence Alignment reformater.',
       url='https://github.com/Dapid/stockholm_reformat',
       author='David Menéndez Hurtado',
@@ -19,8 +18,6 @@ setup(name='stockholm_reformat', version='0.4',
       packages=setuptools.find_packages(),
       test_suite='nose.collector',
       tests_require=['nose'],
-      install_requires=['Cython'],
-      setup_requires=['Cython'],
       scripts=['bin/stockholm_to_a3m', 'bin/stockholm_to_fasta', 'bin/stockholm_to_aln'],
       classifiers=['Programming Language :: Python',
                    'Programming Language :: Python :: 2',
