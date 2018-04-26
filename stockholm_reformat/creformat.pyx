@@ -1,6 +1,7 @@
 import os
 import sys
-from collections import defaultdict
+from collections import OrderedDict
+
 
 cdef _validate_input(inputfile, outputfile):
     # Python 2 compatibility
@@ -45,38 +46,50 @@ cdef _read_sto(inputfile):
     cdef short int i
     cdef list reference_seq
 
-    data = defaultdict(list)
+    data = OrderedDict()
     reference_seq = []
 
+    # Skip header
     for line in inputfile:
         line = line.strip()
         if line and not line.startswith('#'):
             header, sequence = line.split()
             break
     else:
-        raise(IOError('The file appears to be empty'))
+        raise IOError('The file appears to be empty')
+
+    original_header = header
 
     while True:
+        assert header == original_header, (header, original_header)
         reference_seq.extend((s for s in sequence if s != '-'))
         index = [True if s != '-' else False for s in sequence]
+
         for line in inputfile:
             line = line.strip()
             if not line:
-                break
+                # Ignore empty lines
+                continue
+
+            if line == '//':
+                return header, reference_seq, data
+
             if not line.startswith('#'):
-                try:
-                    name, seq = line.split()
-                    data[name].extend(s if i else s.lower() for s, i in zip(seq, index) if i or s != '-')
-                except ValueError:
-                    # End of file
-                    pass
+                name, sequence = line.split()
+                if name == original_header:
+                    break
 
-        try:
-            header, sequence = next(inputfile).split()
-        except StopIteration:
-            break
+                # Fist iteration, a new protein:
+                if not name in data:
+                    data[name] = []
 
-    return header, reference_seq, data
+
+                data[name].extend(s if i else s.lower()
+                                  for s, i in zip(sequence, index)
+                                  if i or s != '-')
+
+        assert header == original_header, (header, original_header)
+
 
 def cparse_a3m(inputfile, outputfile):
     cdef str header, name

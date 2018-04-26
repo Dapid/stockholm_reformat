@@ -27,7 +27,8 @@ def _validate_input(inputfile, outputfile):
 
     else:
         raise ValueError('inputfile should be a file name or a'
-                         'file handler, got {} instead.'.format(type(inputfile)))
+                         'file handler, got {} instead.'.format(
+            type(inputfile)))
 
     if isinstance(outputfile, basestring):
         output = open(outputfile, 'w')
@@ -37,7 +38,8 @@ def _validate_input(inputfile, outputfile):
         close_output = False
     else:
         raise ValueError('outputfile should be a file name or a'
-                         'file handler, got {} instead.'.format(type(outputfile)))
+                         'file handler, got {} instead.'.format(
+            type(outputfile)))
 
     return input_, close_input, output, close_output
 
@@ -46,41 +48,53 @@ def _read_sto(inputfile):
     data = OrderedDict()
     reference_seq = []
 
+    # Skip header
     for line in inputfile:
         line = line.strip()
         if line and not line.startswith('#'):
             header, sequence = line.split()
             break
     else:
-        raise(IOError('The file appears to be empty'))
+        raise IOError('The file appears to be empty')
+
+    original_header = header
 
     while True:
+        assert header == original_header, (header, original_header)
         reference_seq.extend((s for s in sequence if s != '-'))
         index = [True if s != '-' else False for s in sequence]
+
         for line in inputfile:
             line = line.strip()
             if not line:
-                break
+                # Ignore empty lines
+                continue
+
+            if line == '//':
+                return header, reference_seq, data
+
             if not line.startswith('#'):
-                try:
-                    name, seq = line.split()
-                    if not name in data:
-                        data[name] = []
-                    data[name].extend(s if i else s.lower() for s, i in zip(seq, index) if i or s != '-')
-                except ValueError:
-                    # End of file
-                    pass
+                name, sequence = line.split()
+                if name == original_header:
+                    break
 
-        try:
-            header, sequence = next(inputfile).split()
-        except StopIteration:
-            break
+                # Fist iteration, a new protein:
+                if not name in data:
+                    data[name] = []
 
-    return header, reference_seq, data
+
+                data[name].extend(s if i else s.lower()
+                                  for s, i in zip(sequence, index)
+                                  if i or s != '-')
+
+        assert header == original_header, (header, original_header)
+
+
 
 
 def parse_a3m(inputfile, outputfile):
-    input_, close_input, output, close_output = _validate_input(inputfile, outputfile)
+    input_, close_input, output, close_output = _validate_input(inputfile,
+                                                                outputfile)
 
     header, reference_seq, data = _read_sto(input_)
 
@@ -105,7 +119,8 @@ def parse_a3m(inputfile, outputfile):
 
 
 def parse_fasta(inputfile, outputfile):
-    input_, close_input, output, close_output = _validate_input(inputfile, outputfile)
+    input_, close_input, output, close_output = _validate_input(inputfile,
+                                                                outputfile)
 
     header, reference_seq, data = _read_sto(input_)
 
@@ -131,7 +146,8 @@ def parse_fasta(inputfile, outputfile):
 
 def parse_aln(inputfile, outputfile):
     # This is as parse_fasta, but without printing the headers in the output.
-    input_, close_input, output, close_output = _validate_input(inputfile, outputfile)
+    input_, close_input, output, close_output = _validate_input(inputfile,
+                                                                outputfile)
 
     header, reference_seq, data = _read_sto(input_)
 
@@ -151,3 +167,8 @@ def parse_aln(inputfile, outputfile):
         output.close()
     else:
         output.flush()
+
+
+if __name__ == '__main__':
+    f='/home/david/Dropbox/arne_lab/alignments_parsed/H9999.jhE0.sto'
+    parse_aln(f, f.replace('.sto', '.aln'))
